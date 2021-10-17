@@ -56,7 +56,7 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 
 - Új kérdőív felvétele az adatbázisba: adminisztrátor jogosultsággal belépés => új kérdőív gomb megnyomása => adatok megadása => véglegesítés
 
-
+![](./iüfm_f.png)
 
 9\. Fogalomtár
 ==============
