@@ -68,6 +68,7 @@ Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenés
 
 - Kérdőív kitöltése => regisztrált felhasználói belépés => kérdőív kiválasztása => helyes válasz kiválasztása => elküldés
 
+![](./iüfm_k.png)
 
 8\. Követelménylista
 ====================
