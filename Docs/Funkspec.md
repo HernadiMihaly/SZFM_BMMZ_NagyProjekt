@@ -57,6 +57,15 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 
 - Új kérdőív felvétele az adatbázisba: adminisztrátor jogosultsággal belépés => új kérdőív gomb megnyomása => adatok megadása => véglegesítés
 
+- Kérdőív adatainak módosítása => adminisztrátor jogosultsággal belépés => az adott kérdőív kiválasztása a listából => adatok módosítása => véglegesítés
+
+- Kérdőívek törlése => admin jogosultsággal belépés => Kérdőív neve melletti törlő gomb megnyomása => véglegesítés => adott kérdőív törölve a felületről
+
+- Változatos kérdéssorrend kivitelezése => admin jogosultsággal belépés => kérdőív kiválasztása => kérdéssorrend megváltoztatása => manuális, vagy véletlenszerű
+
+- Kérdőív kitöltése => regisztrált felhasználói belépés => kérdőív kiválasztása => helyes válasz kiválasztása => elküldés
+
+
 ![](./iüfm_f.png)
 
 9\. Fogalomtár
