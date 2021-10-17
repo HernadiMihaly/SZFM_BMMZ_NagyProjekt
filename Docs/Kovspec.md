@@ -125,4 +125,7 @@ Szabad riport
 Hogyan működjön az új rendszer?
 
 A Kérdőívek tárolására egy adatbázisban lesz lehetőség, két táblával.
-Az első táblában a tárolt kérdőívek neve és egyéb általános jellemzői, a másodikban a kérdések és tulajdonságaik lesznek tárolva. 
+Az első táblában a tárolt kérdőívek neve és egyéb általános jellemzői, a másodikban a kérdések és tulajdonságaik lesznek tárolva.
+Kérdőívek kitöltésére készül majd felhasználói felület, az elérhető kérdőívek listájából egyet kiválasztva kitölthetjük a kérdőívhez tartozó kérdéseket.
+Az alkalmazás megnyitása után a felhasználónak be kell jelentkeznie. Lesznek sima felhasználók és admin felhasználók.
+Közönséges felhasználóként bárki regisztrálhat, új admin felhasználót a rendszergazda hozhat létre.
