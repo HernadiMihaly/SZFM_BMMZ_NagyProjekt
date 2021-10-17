@@ -7,6 +7,24 @@ A design kialakítása során törekszünk arra, hogy az alkalmazás használat�
 
 Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szoftverünkbe.
 
+
+3\. Követelménylista
+====================
+| ID | Leírás |
+|----| ------ |
+|K01| A Kérdőívek tárolására egy adatbázisban lesz lehetőség, két táblával. Az első táblában a tárolt kérdőívek neve és egyéb általános jellemzői, a másodikban a kérdések és tulajdonságaik lesznek tárolva, az adott kérdést tartalmazó kérdőív azonosítását és kérdéshez kapcsolását lehetővé tevő külső kulccsal együtt.|
+|K02| Kérdőívek kitöltésére készül majd felhasználói felület, az elérhető kérdőívek listájából egyet kiválasztva kitölthetjük a kérdőívhez tartozó kérdéseket.|
+|K03| Az alkalmazás megnyitása után a felhasználónak be kell jelentkeznie. Meg lesznek különböztetve a felhasználók és adminisztrátorok. Közönséges felhasználóként bárki regisztrálhat, új admin felhasználót a rendszergazda hozhat létre.|
+|K04| Új kérdőív hozzáadására az adminisztrátoroknak lesz lehetőségük, a kérdőívek listája alatti új kérdőív gombra kattintva bevihetik a felvenni kívánt kérdéseket és egyéb kérdőívhez kapcsolódó adatokat. A bevitt adatok mentéskor hozzáadódnak az adatbázishoz.|
+|K05| Létező kérdőív adatainak módosítására az adminisztrátoroknak lesz lehetőségük, a kérdőívek listájában adott kérdőív nevére kattintva lehetőségük lesz a korábban bevitt adatok módosítására.|
+|K06| Létező kérdőív törlése az admin felhasználók jogköréhez tartozik, a kérdőívek listájában az adott kérdőív neve melletti gombra kattintva lehetőség lesz a kérdőív törlésére.|
+|K07| A tudásfelmérő és prediktív kérdések egy adatbázis táblabeli attribútum segítségével számon tarthatóak lesznek. A tudásfelmérő kérdéseknél megadható lesz az adott kérdéshez tartozó helyes válasz is.|
+|K08| Egy adott kérdőív kitöltésekor a megjelenő kérdések sorrendje admin felhasználók által módosítható. Lehetőség lesz manuálisan beállítható sorrend vagy minden kitöltéskor különböző, véletlenszerű kérdéssorrend alkalmazására is.|
+|K09| Az admin felhasználók beállíthatják, hogy egy adott kérdőívben a kitöltők számára meg legyenek-e különböztetve a tudásfelmérő és prediktív kérdések.|
+|K10| A kérdőívek kitöltésekor a bevitt adatok egy külön adatbázis táblában lesznek elmentve, ahol a rekordok válaszokat tartalmaznak a hozzájuk tartozó kérdés azonosítójával és egyéb szükséges adatokkal együtt.|
+|K11| Lehetőség lesz a tárolt adatok lekérdezésére, a tárolt válaszok szűrhetőek lesznek a hozzájuk tartozó kérdőív, vagy a kitöltést végző felhasználó alapján.|
+
+
 9\. Fogalomtár
 ==============
 
