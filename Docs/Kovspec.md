@@ -129,3 +129,8 @@ Az első táblában a tárolt kérdőívek neve és egyéb általános jellemző
 Kérdőívek kitöltésére készül majd felhasználói felület, az elérhető kérdőívek listájából egyet kiválasztva kitölthetjük a kérdőívhez tartozó kérdéseket.
 Az alkalmazás megnyitása után a felhasználónak be kell jelentkeznie. Lesznek sima felhasználók és admin felhasználók.
 Közönséges felhasználóként bárki regisztrálhat, új admin felhasználót a rendszergazda hozhat létre.
+Új kérdőív hozzáadására az adminisztrátoroknak lesz lehetőségük, az új kérdőív gombra kattintva bevihetik a felvenni kívánt kérdéseket és egyéb kérdőívhez kapcsolódó adatokat. A bevitt adatok mentéskor hozzáadódnak az adatbázishoz.
+Létező kérdőív adatainak módosítására az adminisztrátoroknak lesz lehetőségük, a kérdőívek listájában adott kérdőív nevére kattintva lehetőségük lesz a korábban bevitt adatok módosítására.
+Létező kérdőív törlése az admin felhasználók jogköréhez tartozik, a kérdőívek listájában az adott kérdőív neve melletti gombra kattintva lehetőség lesz a kérdőív törlésére.
+Lehetőség lesz manuálisan beállítható sorrend vagy minden kitöltéskor különböző, véletlenszerű kérdéssorrend alkalmazására is, amelyet az admin felhasználók állíthatnak be.
+A tudásfelmérő kérdéseknél megadható lesz az adott kérdéshez tartozó helyes válasz is.
