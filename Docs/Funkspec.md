@@ -7,6 +7,10 @@ A design kialakítása során törekszünk arra, hogy az alkalmazás használat�
 
 Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szoftverünkbe.
 
+2\. Jelenlegi helyzet
+====================
+A jelenlegi rendszerünk, ami papíron és ceruzán alapuló kérdőív kitöltő rendszer megérett arra, hogy egy modernebb egyszerűbb a huszonegyedik századhoz méltóra cseréljük.
+Valójában erre a döntésre azért is szántuk el magunkat, hogy a jelenlegi munkánkat megkönnyítsük.
 
 3\. Követelménylista
 ====================
