@@ -31,6 +31,22 @@ Szeretnénk azt is megvizsgálni, hogy egy adott kérdőívben a kérdések megj
 Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani, ezért létre kell hozni egy több jogkörrel rendelkező felhasználó típust, valamint egy olyan csoportot, amelynek tagjai csak a kérdőívek kitöltésére jogosultak.
 
 
+6\. Jelenlegi üzleti folyamatok modellje
+===============================
+- Egy kérdőív adatai, benne az összes kérdéssel
+> Rendelkezésre áll az összes tudásfelmérő és prediktív kérdések listája
+
+- A tudásfelmérő kérdésekhez tartozó helyes válaszok listája
+
+- Egyetlen megjelenítési lapfelület: nincsenek felhasználói jogkörök => egyfelhasználós rendszer
+
+- Kérdések megjelenítése a monitoron => fix kérdéssorrend alkalmazása
+
+- Kérdésekre válasz => szóban
+
+- Papíron vezetjük a helyes válaszok számát=> személyenként/nevenként pontozva => nem lementhető adatok
+
+
 8\. Követelménylista
 ====================
 
