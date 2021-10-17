@@ -24,6 +24,21 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 |K10| A kérdőívek kitöltésekor a bevitt adatok egy külön adatbázis táblában lesznek elmentve, ahol a rekordok válaszokat tartalmaznak a hozzájuk tartozó kérdés azonosítójával és egyéb szükséges adatokkal együtt.|
 |K11| Lehetőség lesz a tárolt adatok lekérdezésére, a tárolt válaszok szűrhetőek lesznek a hozzájuk tartozó kérdőív, vagy a kitöltést végző felhasználó alapján.|
 
+4\. Jelenlegi üzleti folyamatok modellje
+===============================
+- Egy kérdőív adatai, benne az összes kérdéssel
+> Rendelkezésre áll az összes tudásfelmérő és prediktív kérdések listája
+
+- A tudásfelmérő kérdésekhez tartozó helyes válaszok listája
+
+- Egyetlen megjelenítési lapfelület: nincsenek felhasználói jogkörök => egyfelhasználós rendszer
+
+- Kérdések megjelenítése a monitoron => fix kérdés sorrend alkalmazása
+
+- Kérdésekre válasz => szóban
+
+- Papíron vezetjük a helyes válaszok számát=> személyenként/nevenként pontozva => nem lementhető adatok
+
 
 9\. Fogalomtár
 ==============
