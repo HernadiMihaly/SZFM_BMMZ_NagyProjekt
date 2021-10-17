@@ -115,3 +115,14 @@ Button: Gomb
 Question: Kérdés
 
 Answer: Válasz
+
+10\. Riport
+==============
+
+Szabad riport
+-------------
+
+Hogyan működjön az új rendszer?
+
+A Kérdőívek tárolására egy adatbázisban lesz lehetőség, két táblával.
+Az első táblában a tárolt kérdőívek neve és egyéb általános jellemzői, a másodikban a kérdések és tulajdonságaik lesznek tárolva. 
