@@ -47,6 +47,8 @@ A weboldalnak működnie kell minden ismertebb webböngészőben és operációs
 5\. Rendszerre vonatkozó törvények, szabványok, ajánlások
 =====================
 
+A weboldalnak meg kell felelnie minden hatályos jogszabálynak, szabványnak és ajánlásnak. Az egyik legfontosabb ilyen irányelv az adatvédelem, aminek meg kell felelnie az éppen hatájos GDPR jogszabálynak. Hasonlóan fontos terület a személyes adatok gyűjtésére vonatkozó jogszabályok. Ezen a területen a programnak meg kell felelnie a”2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról” -ban leírtaknak. Mindazonáltal a programnak meg kell felelnie a fogyatékkal élők érdekében hozott hozzáférhetőségi szabályozásoknak.
+
 6\. Jelenlegi üzleti folyamatok modellje
 ===============================
 - Egy kérdőív adatai, benne az összes kérdéssel
