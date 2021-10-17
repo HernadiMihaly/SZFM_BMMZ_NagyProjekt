@@ -9,3 +9,25 @@ Az alkalmazásban gombokat használva tudunk válaszolni a kérdésekre, majd a 
 Ezt az alkalmazást a következő fejlesztők készítik:
 
 Balázs Bence, Hernádi Mihály, Osztós Zsombor, Szilágyi Mihály
+
+9\. Fogalomtár
+==============
+User Interface: A felhasználó által használt és látott felhasználói felület.
+
+Main menu: A fő menü, amely a weboldal indulásakor megjelenik.
+
+Login interface: Bejelentkező felület
+
+Database: Adatbázis, melyet kérdések, válaszok és egyéb információk tárolására alkalmazunk.
+
+Design: Az alkalmazás külseje
+
+Questionnaire: Kérdőív
+
+Timer: Idővisszaszámláló
+
+Button: Gomb
+
+Question: Kérdés
+
+Answer: Válasz
