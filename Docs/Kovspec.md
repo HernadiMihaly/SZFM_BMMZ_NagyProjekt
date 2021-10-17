@@ -13,9 +13,13 @@ Balázs Bence, Hernádi Mihály, Osztós Zsombor, Szilágyi Mihály
 2\. Jelenlegi helyzet
 =====================
 
-Az internet és a technológia fejlődésével felgyorsult a világ. A kutatások elvégzésére az emberek válaszaira van szükségünk, melyet jelenleg papír alapú kérdőívek segítségével szerzik meg a felmérők, azonban ez a módszer elavult.
-A kérdőívek kitöltőinek személyesen meg kell jelennie, a kérdőívek kitöltéséhez, amely pénzbe és időbe kerül a kitöltő számára.
-A papíralapú adatokat jelenleg egyenként, kézzel kel felvinni az adatbázisba, amely rengeteg idő.
+- Az internet és a technológia fejlődésével felgyorsult a világ. A kutatások elvégzésére az emberek válaszaira van szükségünk, melyet jelenleg papír alapú kérdőívek segítségével szerzik meg a felmérők, azonban ez a módszer elavult.
+
+
+- A kérdőívek kitöltőinek személyesen meg kell jelennie, a kérdőívek kitöltéséhez, amely pénzbe és időbe kerül a kitöltő számára.
+
+
+- A papíralapú adatokat jelenleg egyenként, kézzel kel felvinni az adatbázisba, amely rengeteg idő.
 
 3\. Vágyálom rendszer
 =====================
