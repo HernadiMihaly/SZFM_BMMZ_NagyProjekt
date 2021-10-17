@@ -13,6 +13,8 @@ A jelenlegi rendszerünk, ami papíron és ceruzán alapuló kérdőív kitölt�
 Valójában erre a döntésre azért is szántuk el magunkat, hogy a jelenlegi munkánkat megkönnyítsük.
 Természetesen az sem mellékes, hogy ennek az újításnak köszönhetően gyorsabban letudjuk kérdezni az adatbázisból az eredményeket.
 Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani.
+Ezért létre kell hozni egy több jogkörrel rendelkező felhasználó típust, valamint egy olyan csoportot, amelynek tagjai csak a kérdőívek kitöltésére jogosultak.
+Tehát létrehozunk egy adminisztrátor jogosúltsággal rendelkező felhasználót az alkalmazásban aki képes arra, hogy a kérdőíveket tartalmát illetve küllemét változtassa.
 
 3\. Követelménylista
 ====================
