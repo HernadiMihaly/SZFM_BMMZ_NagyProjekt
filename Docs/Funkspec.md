@@ -11,6 +11,8 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 ====================
 A jelenlegi rendszerünk, ami papíron és ceruzán alapuló kérdőív kitöltő rendszer megérett arra, hogy egy modernebb egyszerűbb a huszonegyedik századhoz méltóra cseréljük.
 Valójában erre a döntésre azért is szántuk el magunkat, hogy a jelenlegi munkánkat megkönnyítsük.
+Természetesen az sem mellékes, hogy ennek az újításnak köszönhetően gyorsabban letudjuk kérdezni az adatbázisból az eredményeket.
+Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani.
 
 3\. Követelménylista
 ====================
