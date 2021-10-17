@@ -10,6 +10,27 @@ Ezt az alkalmazást a következő fejlesztők készítik:
 
 Balázs Bence, Hernádi Mihály, Osztós Zsombor, Szilágyi Mihály
 
+
+3\. Vágyálom rendszer
+=====================
+
+A projekt célja kérdőíveket kitöltő személyek jövőre vonatkozó meglátásainak gyűjtése, valamint öszzefüggések felfedezése a kérdőív szerkezete, a kitöltő adott területhez
+kapcsolódó tudása és a predikciók pontossága között.
+
+Ehhez egy olyan webes alkalmazásra van szükségünk, amellyel lehetőségünk lesz kérdőíveket rendezetten és elektronikus formában kezelni. 
+
+Az elkészíteni kívánt rendszerben lehetőség lenne kérdőívek létrehozására, kitöltésére, és a kitöltés közben bevitt adatok lementésére és eltárolására.
+
+További igény, hogy a kérdőívekben legyenek a kitöltő tudását felmérő kérdések, és a jövöre vonatkozó kérdések, amelyekben a
+kitöltő megpróbálja megjósólni valamilyen még meg nem történt esemény kimenetelét. Az elkészült alkalmazásban be lehessen állítani, 
+hogy a tudásfelmérő és prediktív jellegű kérdések elkülönülnek-e
+egymástól.
+
+Szeretnénk azt is megvizsgálni, hogy egy adott kérdőívben a kérdések megjelenésének sorrendje befolyásolja-e a válaszokat, ezért fontos, hogy a kérdések a programmal átrendezhetőek legyenek.
+
+Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani, ezért létre kell hozni egy több jogkörrel rendelkező felhasználó típust, valamint egy olyan csoportot, amelynek tagjai csak a kérdőívek kitöltésére jogosultak.
+
+
 9\. Fogalomtár
 ==============
 User Interface: A felhasználó által használt és látott felhasználói felület.
