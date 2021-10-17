@@ -42,7 +42,7 @@ Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenés
 
 4\. Funkcionális követelmény
 =====================
-
+A weboldalnak működnie kell minden ismertebb webböngészőben és operációs rendszer alatt.Magának a webalkalmazásnak könnyen kezelhetőnek jól átláthatónak és esztétikusnak és a felhasználó álltal könnyen kezelhetőnek kell lennie.Az alkalmazásnak képesnek kell online kérdőívek kezelésére.Az alkalmazásnak továbbá képesnek kell lennie ezen kérdőíveknek a létrehozására, a kitöltéseknek a kezelésére és a bevitt adatok lementésére és eltárolására.A kérdőíveknek fét fajta kérdésből kell hogy élljanak, az egyik kategória a kitöltő tudását hivatott mérni, míg a másik a predikciós kategória amelyben a jövőre vonatkozó kérdések kell hogy szerepeljenek.A rendszer kell hogy rendelkezzen lehetőséggel ahol eldőnthetjük hogy a két kategória kérdései elkülönüljenek egymástól.Egy adott kérdőívben a kérdések sorrendje felcserélhetőnek kell hogy legyen további adatszerzés celjából.Az alkalmazásnak rendelkeznie kell egy több részre osztott jogkör rendszerrel ahol elkülönülnek a kérdőívek létrehozására, módosítására jogosult felhasználók és a csupán kitöltési joggal rendelkező felhasználók.
 
 6\. Jelenlegi üzleti folyamatok modellje
 ===============================
