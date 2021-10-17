@@ -40,6 +40,9 @@ Szeretnénk azt is megvizsgálni, hogy egy adott kérdőívben a kérdések megj
 
 Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani, ezért létre kell hozni egy több jogkörrel rendelkező felhasználó típust, valamint egy olyan csoportot, amelynek tagjai csak a kérdőívek kitöltésére jogosultak.
 
+4\. Funkcionális követelmény
+=====================
+
 
 6\. Jelenlegi üzleti folyamatok modellje
 ===============================
