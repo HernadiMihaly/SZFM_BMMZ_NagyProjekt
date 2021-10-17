@@ -46,6 +46,28 @@ Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenés
 
 - Papíron vezetjük a helyes válaszok számát=> személyenként/nevenként pontozva => nem lementhető adatok
 
+7\. Igényelt üzleti folyamatok modellje
+===============================
+- Online megjelenés
+
+- Kérdőívek tárolása az adatbázisban => kérdőívek neveinek, kérdéseknek az eltárolása
+
+- Kiválasztható legyen a kitölteni kívánt kérdőív név alapján
+
+- Helyes válaszok felvitele az adatbázisba => követhető pontrendszer felhasználónként
+
+- Bejelentkező felület => Többfelhasználós rendszer => adminisztrátor,közönséges user
+
+- Új kérdőív felvétele az adatbázisba: adminisztrátor jogosultsággal belépés => új kérdőív gomb megnyomása => adatok megadása => véglegesítés
+
+- Kérdőív adatainak módosítása => adminisztrátor jogosultsággal belépés => az adott kérdőív kiválasztása a listából => adatok módosítása => véglegesítés
+
+- Kérdőívek törlése => admin jogosultsággal belépés => adott kérdőív törlése => véglegesítés
+
+- Változatos kérdéssorrend kivitelezése
+
+- Kérdőív kitöltése => regisztrált felhasználói belépés => kérdőív kiválasztása => helyes válasz kiválasztása => elküldés
+
 
 8\. Követelménylista
 ====================
