@@ -46,7 +46,7 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 
 - Kérdőívek tárolása az adatbázisban => kérdőívek neveinek, kérdéseknek az eltárolása
 
-- A predektív és tudásfelmérő kérdések megkülönböztethetősége =>
+- A prediktív és tudásfelmérő kérdések megkülönböztethetősége =>
 > "Az admin felhasználók beállíthatják, hogy egy adott kérdőívben a kitöltők számára meg legyenek-e különböztetve a tudásfelmérő és prediktív kérdések"
 
 - Kiválasztható legyen a kitölteni kívánt kérdőív név alapján => User belépés => Kérdőív lista => Adott kérdőív nevére klikk => kitöltés => beküldés
