@@ -68,6 +68,18 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 
 ![](./iüfm_f.png)
 
+
+6\. Képernyő terv
+=================
+Az adminisztrátori felületet tervezett elrendezését szemléltető kép. Az adminisztrátorok jogkörébe tartozik a kérdőívek létrehozása, módosítása és törlése.
+
+![ Képernyőterv kép betöltése sikertelen](./kepernyoterv1.png)
+
+Az alap jogkörrel rendelkező felhasználók kitölthetnek kérdőíveket. A kérdőívek különböző típusú kérdéseket is tartalmazhatnak.
+
+![ Képernyőterv kép betöltése sikertelen](./kepernyoterv2.png)
+
+
 9\. Fogalomtár
 ==============
 
