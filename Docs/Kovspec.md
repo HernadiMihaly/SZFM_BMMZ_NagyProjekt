@@ -31,6 +31,24 @@ Szeretnénk azt is megvizsgálni, hogy egy adott kérdőívben a kérdések megj
 Az elképzelt rendszerben fontos, hogy a kérdőívek tartalmát és megjelenésének módját ne tudja az összes alkalmazást használó személy módosítani, ezért létre kell hozni egy több jogkörrel rendelkező felhasználó típust, valamint egy olyan csoportot, amelynek tagjai csak a kérdőívek kitöltésére jogosultak.
 
 
+8\. Követelménylista
+====================
+
+| ID | Leírás |
+|----| ------ |
+|K01| Kérdőívek tárolása|
+|K02| Kérdőívek kitöltésére felhasználói felület|
+|K03| Két felhasználói jogkör kezelése: alap felhasználó, adminisztrátor|
+|K04| Új kérdőív hozzáadása|
+|K05| Létező kérdőív adatainak módosítása|
+|K06| Létező kérdőív törlése|
+|K07| Két fajta kérdés: Tudásfelmérő, prediktív|
+|K08| Megjelenő kérdések sorrendjének módosíthatósága|
+|K09| Kérdés típusa látható vagy nem megjelenített|
+|K10| Kitöltött kérdőívek tartalmának eltárolása|
+|K11| Lehetőség a tárolt adatok lekérdezésére|
+
+
 9\. Fogalomtár
 ==============
 User Interface: A felhasználó által használt és látott felhasználói felület.
