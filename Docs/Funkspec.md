@@ -96,6 +96,11 @@ Moderátor szemszög: A webhelyre való navigálás és az adott felületen tör
 
 Felhasználói szemszög:Mivel a felhasználónak nincs joga kérdőívek létrehozására és szerkesztésére ezért őt egy sokkal egyszerűbb felület fogadja. Csupán a kérdőív neve látszik a felületen és a megválaszolandó kérdések.A kérdéseknél lehetősége van kattintással leadni válaszát vagy egyes kérdésekre szöveges választ is adhat.Miutánúgy érzi hogy legjobb képességeinek megfelelően kitöltötte a kérdőívet a “Kitöltés befejezése ” gombra kattintva leadhatja válaszait. 
 
+8\. Funkció - követelmény megfeleltetés
+====================
+
+
+
 9\. Fogalomtár
 ==============
 
