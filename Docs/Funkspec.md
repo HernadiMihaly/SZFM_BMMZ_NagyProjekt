@@ -90,6 +90,12 @@ Az alap jogkörrel rendelkező felhasználók kitölthetnek kérdőíveket. A k�
 7\. Forgatókönyv
 ===============================
 
+Szereplők: Moderátor, Felhasználó
+
+Moderátor szemszög: A webhelyre való navigálás és az adott felületen történő bejelentkezés után fogadja a webalkalmazás moderátori kezelőfelülete.Itt a moderátor megtekintheti egyébb más információk mellett a már korábban létrehozott kérdőívek listáját. Ebben a listában láthatja a kérdőív nevét és lehetősége van törölni a kerdőívek listájából.Ettől lelyebb találja a lehetőséget további kérdőívek létrehozására és a már bevitt adatok lekérdezésére.
+
+Felhasználói szemszög:Mivel a felhasználónak nincs joga kérdőívek létrehozására és szerkesztésére ezért őt egy sokkal egyszerűbb felület fogadja. Csupán a kérdőív neve látszik a felületen és a megválaszolandó kérdések.A kérdéseknél lehetősége van kattintással leadni válaszát vagy egyes kérdésekre szöveges választ is adhat.Miutánúgy érzi hogy legjobb képességeinek megfelelően kitöltötte a kérdőívet a “Kitöltés befejezése ” gombra kattintva leadhatja válaszait. 
+
 9\. Fogalomtár
 ==============
 
