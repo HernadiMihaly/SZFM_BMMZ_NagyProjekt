@@ -99,7 +99,7 @@ Felhasználói szemszög:Mivel a felhasználónak nincs joga kérdőívek létre
 8\. Funkció - követelmény megfeleltetés
 ====================
 
-
+A követelmények azokra felhasználói esetekre lettek felállítva amikor egy  személy, jelen esetben egy moderátro szeretne információt gyűjteni több  felhasználótót különböző témákban.Ennek megfelelően a moderátor képes lesz kérdőíveket készíteni amire a felhasználó válaszokat tud adni amiket a rendszer eltárol majd később a moderátor le tudja kérdezni azokat egy adatbázisból.Moderátoti felhasználói fiókot csak a rendszergazda hozhat létre de felhasználónak bárki regisztrálhat.Bejelntkezés után a felhasználó képes lesz a kérdőívek között navigálni és kitölteni azokat.A moderátorok képesek lesznek beállítani hogy a felhasználó számra a kérdések 2 csoportra bontva legyenek láthatóak vagy vegyesen. 
 
 9\. Fogalomtár
 ==============
