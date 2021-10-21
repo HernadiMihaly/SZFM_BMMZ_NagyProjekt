@@ -14,11 +14,11 @@ Scrum master: Hernádi Mihály\
 Product owner: Osztós Zsombor
 ### Projektmunkások és felelősségek
 **<u> Backend munkálatok:** </u>\
-Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
+Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály\
 *Feladatuk a képernyőn található gombok mögöttes funkcióinak beállítása, valamint a háttérben lévő metódusok létrehozása a weboldal minden egyéb funkciójához.
 Legfontosabb feladatuk az adatok kezelése: az adatbázisok feltöltése adatokkal, a tárolt adatok rendezése, és az ezekhez szükséges eszközök megteremtése, kivitelezése. Valamint a különböző adatok megkülönböztethetővé és elérhetővé tétele a felhasználó számára. Ezen kívül a többfelhasználós rendszer biztosítása: regisztráció, hatáskörök beállítása, user adatok mentése.*\
 **<u> Frontend munkálatok:** </u>\
-Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
+Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály\
 *A felsorolt személyek a weboldal elemeinek és adatainak megjelenéséért (a gombok, és egyéb kiegészítők megjelenítéséért: kérdések megjelenítése, pontrendszer feltüntetése, mezők létrehozása, hivatkozások létrehozása) , a lapok megjelenítéséért, logikusan bejárható, összetett, de  esztétikus rendszer kiépítéséért felelősek. A többfelhasználós rendszeren belül külön admin és user felület létrehozása is feladatuk.*
 
 A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódrészenként/részfeladatonként lesz felosztva a csapat tagjai között. Közös egyeztetés alapján mindenki azt a részt fejleszti majd a backend munkálatokban, amelyhez a legjobban ért.
