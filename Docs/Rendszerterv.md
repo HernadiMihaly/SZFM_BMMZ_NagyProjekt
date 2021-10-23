@@ -116,6 +116,15 @@ Létrehozáskor a felhasználó által megadott beállítások alapján generál
 Backend:
 Létrehozáskor a megkapott JSON objektumból létrehozott entitás beszúrása az adattáblákba. Módosításnál a már meglévő rekordok megváltoztatása történik.
 
+ ## Kérdőív megjelenésének paraméterezhetősége - K08, K09
+Az admin felhasználók számára elérhető kérdőív létrehozó és szerkesztő nézetekben beállítható, hogy a tudásfelmérő és prediktív kérdések elkülönüljenek-e. Szintén megadható az egyes kérdések kitöltéskori sorszáma, vagy a sorszám randomizálást választva a sorrendet véletlenszerűre lehet állítani.
+
+Frontend: 
+Az admin felhasználó által megadott beállításokat továbbítja a backend komponens felé.
+
+Backend: 
+A beállításoknak megfelelő állapot létrehozása a kérdéseket tartalmazó adatbázis táblában.
+
 
 8\. Tesztterv
 ==============
