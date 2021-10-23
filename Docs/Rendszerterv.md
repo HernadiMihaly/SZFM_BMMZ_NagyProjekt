@@ -125,6 +125,15 @@ Az admin felhasználó által megadott beállításokat továbbítja a backend k
 Backend: 
 A beállításoknak megfelelő állapot létrehozása a kérdéseket tartalmazó adatbázis táblában.
 
+ ## Kitöltési adatok lekérdezése - K11
+Kérdőív kitöltési adatok lekérdezésére egy külön nézetben lesz lehetőség, a szűrési feltételek megadása után táblázat alakjában jeleníthetőek meg az egyes kérdésekre adott válaszokat tartalmazó rekordok.
+
+Frontend: 
+Szűrési input mezők tartalmának továbbítása a backend komponens felé, a szűrés eredményeként kapott rekordok megjelenítése.
+
+Backend:
+A megkapott szűrési feltételekből adatbázislekérdezések létrehozása, az illeszkedő rekordok továbbítása a frontend komponensnek.
+
 
 8\. Tesztterv
 ==============
