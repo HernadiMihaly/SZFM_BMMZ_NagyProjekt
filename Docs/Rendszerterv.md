@@ -107,6 +107,15 @@ JSON objektumban megkapott adatok (kitöltendő kérdőív név, kérdések) meg
 Backend:
 A kiválasztott kérdőívhez tartozó kérdések kiszűrése az adatbázisból és továbbítása JSON formában, valamint a kitöltési adatok lementése a megfelelő adatbázis táblában.
 
+ ## Új kérdőív létrehozása, létező módosítása - K04, K05
+Az admin fehasználók számára a kérdőívek listáját tartalmazó felületen lehet elkezdeni egy új kérdőív felvételét, valamint meglévő kérdőív adatainak és beállításainak módosítását.
+
+Frontend:
+Létrehozáskor a felhasználó által megadott beállítások alapján generálandó kérdőív továbbítása JSON objektumként. Módosításánál API függvényhívások használatával juttatjuk át az információt a backend komponensnek, megadjuk hogy mely adatokat milyen módon kell módosítani.
+
+Backend:
+Létrehozáskor a megkapott JSON objektumból létrehozott entitás beszúrása az adattáblákba. Módosításnál a már meglévő rekordok megváltoztatása történik.
+
 
 8\. Tesztterv
 ==============
