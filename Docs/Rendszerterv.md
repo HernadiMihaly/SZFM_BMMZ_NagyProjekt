@@ -73,6 +73,13 @@ A rendszer két részből áll, egy frontend komponensből, ami a felhasználói
 
 A backend funkcionalitás megvalósításához a Laravel PHP keretrendszert használjuk, frontend felépítéshez pedig a Vue.js keretrendszert.
 
+ ## Adatok tárolása - K01, K03, K07, K10
+Az adatok tárolása négy adatbázis táblában valósul majd meg, külön táblában tároljuk a felhasználók adatait, a felvett kérdőívek nevét, a felvett kérdéseket, és a kérdőívkitöltéskor lementendő adatokat.
+
+Az adatbázis kezelése a backend komponens szerepköréhez tartozik.
+
+A frontend az adatbázist közvetlenül nem is éri el.
+
 
 8\. Tesztterv
 ==============
