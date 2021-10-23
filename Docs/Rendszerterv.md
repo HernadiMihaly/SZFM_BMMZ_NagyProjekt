@@ -98,6 +98,15 @@ A kérdőívek nevét tartalmazó, backend végponttól megkapott JSON objektum 
 Backend:
 Az adatbázisban tárolt kérdőívnevekből JSON objektum előállítása és továbbítása a frontend komponensnek.
 
+ ## Kérdőív kitöltése felület - K02
+A kérdőív listában egy kérdőív nevére kattintva az alkalmazás átvált a kérdőív kitöltés felületre.
+
+Frontend: 
+JSON objektumban megkapott adatok (kitöltendő kérdőív név, kérdések) megjelenítése a képernyőn. Kitöltés után a mentés gombra kattintáskor a bevitt adatokból megfelelő JSON objektum létrehozása és elküldése a megfelelő backend végpontnak.
+
+Backend:
+A kiválasztott kérdőívhez tartozó kérdések kiszűrése az adatbázisból és továbbítása JSON formában, valamint a kitöltési adatok lementése a megfelelő adatbázis táblában.
+
 
 8\. Tesztterv
 ==============
