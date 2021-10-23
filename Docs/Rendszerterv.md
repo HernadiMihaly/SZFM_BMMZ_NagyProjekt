@@ -39,56 +39,56 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 3\. Üzleti folyamatok modellje
 ====================
 
-- Üzleti szereplők (Business Actors):
--- User
--- Adminisztrátor
--- Rendszergazda
+### Üzleti szereplők (Business Actors):\
+- User
+- Adminisztrátor
+- Rendszergazda
 
-- Üzleti entitások (Business Entity):
--- Regisztrációs felület
--- Bejelentkező felület
--- Kérdések
--- Válaszok
--- Kérdőív hozzáadó mező
--- Kérdés hozzáadó mező
--- Kérdés törlő mező
--- Kérdésmódosító mező
+### Üzleti entitások (Business Entity):\
+- Regisztrációs felület
+- Bejelentkező felület
+- Kérdések
+- Válaszok
+- Kérdőív hozzáadó mező
+- Kérdés hozzáadó mező
+- Kérdés törlő mező
+- Kérdésmódosító mező
 
-- Üzleti folyamatok (Business Use Case):
--- Regisztráció
--- Bejelentkezés
--- Kérdőív használata
--- Kérdés kitöltés
--- Válasz elküldés
--- Hibajelentés
-/
--- Kérdőív létrehozása
--- Kérdés hozzáadása
--- Kérdőív törlése
--- Kérdés módosítása
--- Hibaüzenet továbbítás
-/
--- Admin jogosultság létrehozása
--- Hibakezelés
+### Üzleti folyamatok (Business Use Case):\
+- Regisztráció
+- Bejelentkezés
+- Kérdőív használata
+- Kérdés kitöltés
+- Válasz elküldés
+- Hibajelentés
+\
+- Kérdőív létrehozása
+- Kérdés hozzáadása
+- Kérdőív törlése
+- Kérdés módosítása
+- Hibaüzenet továbbítás
+\
+- Admin jogosultság létrehozása
+- Hibakezelés
 
-Üzleti folyamat használati eset diagram (Business Use Case Diagram):
+### Üzleti folyamat használati eset diagram (Business Use Case Diagram):
 ![](./Images/üfd_mindenes.png)
 
-Üzleti folyamat lefutások (Business Use Case Realization):/
-1. Regisztráció, Bejelentkezés, Hibajelentés/
-Admin és User/
+### Üzleti folyamat lefutások (Business Use Case Realization):/
+1. Regisztráció, Bejelentkezés, Hibajelentés\
+Admin és User\
 ![](./Images/regbejhibaj.png)
 2. Kérdőív használata, Kérdés kitöltés, Válasz elküldés/
-User/
+User\
 ![](./Images/khasznkitoltelkuld.png)
-3. Kérdőív hozzáadása, Kérdés hozzáadása, Hibaüzenet továbbítás/
-Admin/
+3. Kérdőív hozzáadása, Kérdés hozzáadása, Hibaüzenet továbbítás\
+Admin\
 ![](./Images/khoz.png)
-4. Kérdőív törlése, Kérdés módosítása/
-Admin/
+4. Kérdőív törlése, Kérdés módosítása\
+Admin\
 ![](./Images/ktörlmód.png)
-5. Hibakezelés/
-Rendszergazda/
+5. Hibakezelés\
+Rendszergazda\
 ![](./Images/Hibakezelés.png)
 
 
