@@ -39,12 +39,12 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 3\. Üzleti folyamatok modellje
 ====================
 
-### Üzleti szereplők (Business Actors):\
+### Üzleti szereplők (Business Actors):
 - User
 - Adminisztrátor
 - Rendszergazda
 
-### Üzleti entitások (Business Entity):\
+### Üzleti entitások (Business Entity):
 - Regisztrációs felület
 - Bejelentkező felület
 - Kérdések
@@ -54,7 +54,7 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 - Kérdés törlő mező
 - Kérdésmódosító mező
 
-### Üzleti folyamatok (Business Use Case):\
+### Üzleti folyamatok (Business Use Case):
 - Regisztráció
 - Bejelentkezés
 - Kérdőív használata
@@ -74,11 +74,11 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 ### Üzleti folyamat használati eset diagram (Business Use Case Diagram):
 ![](./Images/üfd_mindenes.png)
 
-### Üzleti folyamat lefutások (Business Use Case Realization):/
+### Üzleti folyamat lefutások (Business Use Case Realization):
 1. Regisztráció, Bejelentkezés, Hibajelentés\
 Admin és User\
 ![](./Images/regbejhibaj.png)
-2. Kérdőív használata, Kérdés kitöltés, Válasz elküldés/
+2. Kérdőív használata, Kérdés kitöltés, Válasz elküldés\
 User\
 ![](./Images/khasznkitoltelkuld.png)
 3. Kérdőív hozzáadása, Kérdés hozzáadása, Hibaüzenet továbbítás\
