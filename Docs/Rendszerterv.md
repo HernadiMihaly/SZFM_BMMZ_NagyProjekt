@@ -66,6 +66,14 @@ Törvényi előírások, szabványok:
 ------------------------------
 
 
+7\. Implementációs terv
+=======================
+
+A rendszer két részből áll, egy frontend komponensből, ami a felhasználói felületet és az interakciót biztosítja, és egy backend komponensből, ami a rendszer üzleti logikáját tartalmazza.
+
+A backend funkcionalitás megvalósításához a Laravel PHP keretrendszert használjuk, frontend felépítéshez pedig a Vue.js keretrendszert.
+
+
 8\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
