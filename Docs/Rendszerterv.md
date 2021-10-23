@@ -36,6 +36,36 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 ```
 ```
 
+
+4\. Követelmények
+=================
+
+Funkcionális követelmények:
+-------------------------
+
+Az elkészítendő webes alkalmazás böngészőben fut, és kérdőívek online kezelésével foglalkozik.
+
+Lehetőség lesz benne kérdőívek és kérdőívkitöltésekkel kapcsolatos adatok tárolására, valamint lekérdezésére is.
+
+A kérdőívek tartalmazhatnak olyan kérdéseket, ahol a felhasználó szabadon gépelhet be választ, és olyan kérdéseket is, ahol lehetséges válaszok listájából kell megjelölni egy vagy több választ.
+
+A kérdőívekben megadhatóak tudásfelmérő és prediktív jellegű kérdések is, ezeknek kitöltés közbeni elkülönítése paraméterezhető: elkülönítés bekapcsolása vagy tiltása.
+
+A kérdőívekben a megjelenő kérdések sorrendje paraméterezhető: lehetőség van manuális sorrend megadásra és sorrend randomizációra is.
+
+Lehetőség lesz kérdőívek felvételére, tartalmának módosítására és törlésére is.
+
+Két felhasználó típus lesz megkülönböztetve, alap felhasználó és adminisztrátor. Regisztrációkor alap felhasználó jön létre, új admint csak a rendszergazda vehet fel. Bejelentkezés után a megfelelő felhasználói felület jelenik majd meg. 
+
+
+Nem funkcionális követelmények:
+------------------------------
+
+
+Törvényi előírások, szabványok:
+------------------------------
+
+
 8\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
