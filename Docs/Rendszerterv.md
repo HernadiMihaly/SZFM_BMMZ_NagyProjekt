@@ -61,13 +61,11 @@ A backend és frontend munkákat együttesen végezzük. A projekt apróbb kódr
 - Kérdés kitöltés
 - Válasz elküldés
 - Hibajelentés
-\
 - Kérdőív létrehozása
 - Kérdés hozzáadása
 - Kérdőív törlése
 - Kérdés módosítása
 - Hibaüzenet továbbítás
-\
 - Admin jogosultság létrehozása
 - Hibakezelés
 
