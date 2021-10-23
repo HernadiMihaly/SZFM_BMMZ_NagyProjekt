@@ -80,6 +80,15 @@ Az adatbázis kezelése a backend komponens szerepköréhez tartozik.
 
 A frontend az adatbázist közvetlenül nem is éri el.
 
+## Bejelentkezés, jogosultságkezelés - K03
+ A weboldal megnyitásakor először egy bejelentkezés ablak jelenik meg, ahol a megadható a felhasználónév és jelszó.
+
+Frontend: 
+Bejelentkezési form megjelenítése, input mezőkben megadott adatok továbbitása a backend komponensnek.
+
+Backend:
+A megadott felhasználó név keresése az adatbázisban, jelszó helyességének ellenőrzése. A belépett felhasználó azonosítására használandó token generálása és munkamenet idejéig történő eltárolása(a frontendnek ezt a tokent minden kérésben küldenie kell). A Laravel keretrendszer API token használatával könnyen kezelhető hogy az adott felhasználó a program milyen funkcionalitásait veheti igénybe.
+
 
 8\. Tesztterv
 ==============
