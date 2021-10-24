@@ -186,6 +186,12 @@ o Válasz elküldése
 ● Az alkalmazás web platformra, hordozható
 eszközökre(okostelefonok,táblagépek) készül.
 
+● Nincsenek megvásárolt komponenseink.
+
+● Adatok tárolása adatbázisban történik
+
+● Az alkalmazás eléréséhez internetkapcsolat szükséges
+
 7\. Implementációs terv
 =======================
 
