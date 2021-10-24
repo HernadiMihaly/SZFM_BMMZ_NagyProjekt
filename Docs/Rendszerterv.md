@@ -163,6 +163,16 @@ o Bejelentkezés
 
 o Regisztráció
 
+● MAIN MENÜ
+
+o Keresés a kérdőívek közt
+
+o Kérdőív választása
+
+o Kérdőív létrehozása (Admin)
+
+o Kijelentkezés
+
 7\. Implementációs terv
 =======================
 
