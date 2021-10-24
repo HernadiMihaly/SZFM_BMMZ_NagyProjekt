@@ -115,6 +115,13 @@ Két felhasználó típus lesz megkülönböztetve, alap felhasználó és admin
 Nem funkcionális követelmények:
 ------------------------------
 
+Esztétikus kezelőfelület
+
+Felhasználók ne férjenek hozzá más felhasználók adataihoz
+
+A felhasználóknak jól elkülöníthető jogkörüknek kell hogy legyen
+
+Felhasználóbarát és letisztult kezelőfelület
 
 Törvényi előírások, szabványok:
 ------------------------------
