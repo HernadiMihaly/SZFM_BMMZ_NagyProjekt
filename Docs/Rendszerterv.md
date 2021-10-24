@@ -173,6 +173,12 @@ o Kérdőív létrehozása (Admin)
 
 o Kijelentkezés
 
+● KÉRDŐÍV:
+
+o Kérdőív kitöltése
+
+o Válasz elküldése
+
 7\. Implementációs terv
 =======================
 
