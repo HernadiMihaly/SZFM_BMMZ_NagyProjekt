@@ -314,4 +314,4 @@ Böngészők: Google Chrome 93.0.4577.82-es stabil asztali verzió, Mozilla Fire
 9\. Telepítési terv
 ===================
 
-
+A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari, Microsoft Edge), külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek. A hardwares minimális specifikációk meg fognak egyezni egy átlagos weboldal specifikációival és adatforgalmban sem fog eltérni tőle. A weboldal használatához egeren, billentyűzeten kívül más külső hardwarerre nem lesz szüksége a felhasználónak a weboldal használatához.
