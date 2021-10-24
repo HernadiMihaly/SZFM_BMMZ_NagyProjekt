@@ -118,7 +118,14 @@ Nem funkcionális követelmények:
 
 Törvényi előírások, szabványok:
 ------------------------------
+5\. Funkcionális terv
+=================
+Rendszerszereplők:
+-----------------
 
+Admin
+
+User
 
 7\. Implementációs terv
 =======================
