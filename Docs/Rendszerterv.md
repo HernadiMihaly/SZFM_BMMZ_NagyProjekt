@@ -127,6 +127,22 @@ Admin
 
 User
 
+Rendszerhasználati esetek és lefutásaik:
+-----------------------
+ADMIN:
+
+● Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
+
+● A felhasználói adatokat látják, változtathatják
+
+● Felhasználó hozzáadására, törlésére van lehetőségük
+
+● Kérdőívek létrehozása, törlése, módosítása
+
+● Kérdések hozzáadása, törlése, módosítása a kérdőívben
+
+● Kvízek létrehozása, törlése, módosítása
+
 7\. Implementációs terv
 =======================
 
