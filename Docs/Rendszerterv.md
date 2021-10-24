@@ -311,6 +311,7 @@ Amennyiben hibás működésbe ütköznek a felhasználók, akkor egy tesztelés
 Tesztelésre használt eszközök
 Böngészők: Google Chrome 93.0.4577.82-es stabil asztali verzió, Mozilla Firefox 92.0-s stabil asztali verzió, Microsoft Edge 93.0.961.52-es stabil asztali verzió Operációs rendszer: Windows 10 21H1-es stabil asztali verzió
 
-
+9\. Telepítési terv
+===================
 
 
