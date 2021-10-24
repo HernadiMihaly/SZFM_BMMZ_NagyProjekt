@@ -125,6 +125,14 @@ Felhasználóbarát és letisztult kezelőfelület
 
 Törvényi előírások, szabványok:
 ------------------------------
+
+    -GDPR jogszabályoknak való megfelelés
+    
+    -2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról
+    
+    -Fogyatékkal élők érdekében létrehozott hozzáférhetőségi jogszabályok
+
+
 5\. Funkcionális terv
 =================
 Rendszerszereplők:
