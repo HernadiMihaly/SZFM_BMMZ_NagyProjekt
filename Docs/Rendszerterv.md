@@ -179,6 +179,13 @@ o Kérdőív kitöltése
 
 o Válasz elküldése
 
+6\. Fizikai környezet
+=======================
+● A backend funkcionalitás megvalósításához a Laravel PHP keretrendszert használjuk, frontend felépítéshez pedig a Vue.js keretrendszert.
+
+● Az alkalmazás web platformra, hordozható
+eszközökre(okostelefonok,táblagépek) készül.
+
 7\. Implementációs terv
 =======================
 
