@@ -155,6 +155,14 @@ USER:
 
 ● Hibajelentés küldése
 
+Menü-hierarchiák:
+--------------
+● BEJELENTKEZÉS:
+
+o Bejelentkezés
+
+o Regisztráció
+
 7\. Implementációs terv
 =======================
 
