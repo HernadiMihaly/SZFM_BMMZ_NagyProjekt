@@ -143,6 +143,18 @@ ADMIN:
 
 ● Kvízek létrehozása, törlése, módosítása
 
+USER:
+
+● Regisztrálhat és bejelentkezhet
+
+● Kiválaszthatja és kitöltheti a számára tetsző kérdőívet
+
+● Elküldheti a kérdőívet
+
+● Kereshet a kérdőívek között
+
+● Hibajelentés küldése
+
 7\. Implementációs terv
 =======================
 
