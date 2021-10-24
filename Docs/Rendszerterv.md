@@ -192,6 +192,16 @@ eszközökre(okostelefonok,táblagépek) készül.
 
 ● Az alkalmazás eléréséhez internetkapcsolat szükséges
 
+● Fejlesztői eszközök:
+
+o Notepad++
+
+o IntelliJ Idea
+
+o MySQL Workbench
+
+o Visual Studio Code
+
 7\. Implementációs terv
 =======================
 
