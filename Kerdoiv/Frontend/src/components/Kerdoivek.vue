@@ -38,7 +38,26 @@ export default {
       })
   },
   methods: {
-    
+    delete_kerdoiv(kerdoiv_id) {
+      if(!confirm("Biztosan törölni akarja a kérdőívet?")){
+        return;
+      }
+      this.axios
+      .delete('http://localhost:8000/api/kerdoivek/' + kerdoiv_id.toString())
+      .then(response => {
+        this.info = response.data;
+        for (var i = 0; i < this.kerdoivek.length; i++) {
+          if(this.kerdoivek[i].id == kerdoiv_id){
+            this.kerdoivek.splice(i, 1);
+            break;
+          }
+        }
+      })
+      .catch(error => {
+            this.info = error.message;
+            console.error("There was an error!", error);
+          });
+    },
   }
 }
 </script>
