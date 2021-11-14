@@ -86,7 +86,45 @@ export default {
     }
   },
   methods: {
+    handleClick() {
+        this.info = "";
+        alert(1);
+        var valaszok = [];
+        var form = this.form;
+        this.kerdesek.forEach(function (kerdes, i) {
+            var value;
+            switch (kerdes.type) {
+                case 'number':
+                    value = form.szamok[i];
+                    break;
+                case 'string':
+                    value = form.szovegek[i];
+                    break;  
+                case 'boolean':
+                    value = form.check[i] != null? form.check[i] : 'N';
+                    break;
+                case 'list':
+                    value = form.valasztott_ertekek[i];
+                    break;
+            }
+            
+            var valasz = {'kerdes_id': kerdes.id,
+                           'question_filler': 'Guest',
+                           'value': value};
+            valaszok.push(valasz);
+        })
+        alert(JSON.stringify({'valaszok':valaszok}));
+        this.axios.post('http://localhost:8000/api/valaszokmentese/', {'valaszok':valaszok})
+          .then(response => {
+            this.info = response.data;
 
+            this.$router.push('/thankyou');
+          })
+          .catch(error => {
+            this.info = error.message;
+            console.error("There was an error!", error);
+          });
+    }
   },
   mounted () {
     this.axios
