@@ -126,7 +126,12 @@ export default {
     }
   },
   methods: {
-    
+    onCellEditComplete(event) {
+        let { data, newValue, field } = event;
+
+        data[field] = newValue;
+
+    },
   },
   mounted () {
     this.axios
