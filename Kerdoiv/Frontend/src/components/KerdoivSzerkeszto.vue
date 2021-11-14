@@ -132,6 +132,13 @@ export default {
         data[field] = newValue;
 
     },
+    ujKerdes(){
+        this.kerdesek.push({"order_number": this.kerdesek.length + 1,
+            "question": "",
+            "type": "string", "is_predictive": 1,
+            "correct_answer": "", 
+            "answers": ""});
+    }
   },
   mounted () {
     this.axios
