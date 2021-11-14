@@ -162,3 +162,29 @@ export default {
 </script>
 
 
+<style scoped>
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+li {
+  margin: 0 10px;
+  list-style-type: none;
+}
+a {
+  color: #42b983;
+}
+.numberinput {
+  border: 1px solid lightgray;
+}
+.stringinput {
+  border: 1px solid indianred;
+}
+</style>
+
