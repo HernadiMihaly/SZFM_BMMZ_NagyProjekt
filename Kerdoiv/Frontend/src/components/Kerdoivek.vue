@@ -58,6 +58,9 @@ export default {
             console.error("There was an error!", error);
           });
     },
+    edit_kerdoiv(id) {
+       this.$router.push({ name: 'kerdoiv_szerkesztes', params: { kerdoiv_id: id } });
+    }
   }
 }
 </script>
