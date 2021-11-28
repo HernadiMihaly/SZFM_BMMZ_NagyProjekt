@@ -301,7 +301,7 @@ Tényleges viselkedés: Az oszlopokban a rendezés beállítása során a tábla
 
 Tényleges viselkedés: Az egyes oszlopokban miután beállítottuk a rendezést, a tábla sorok átrendeződnek a megfelelő módon. Miután a fejlécre kattintottunk a sorrend megfordítható. A több lépcsős rendezés is az elvártaknak megfelelően működik. Tesztelve: Brave-ben Balázs Bence által.
 
-
+Tényleges viselkedés: Az oszlopokban a rendezés beállítása után a tábla sorai sikeresen átrendeződnek. Ha ismét rákattintunk a fejlécre, a sorrend megfordul. A többlépcsős rendezés sikeresen működik. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
 
 18\. Regisztrációs felület
 ---------------------------------------------------
