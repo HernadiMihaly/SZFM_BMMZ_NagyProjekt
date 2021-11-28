@@ -253,6 +253,9 @@ Tényleges viselkedés: Az egyes oszlopokban a rendezés beállítása után a t
 
 Tényleges viselkedés: Az oszlopokban a rendezés beállítása során a tábla sorok átrendeződnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Az egyes oszlopokban miután beállítottuk a rendezést, a tábla sorok átrendeződnek a megfelelő módon. Miután a fejlécre kattintottunk a sorrend megfordítható. A több lépcsős rendezés is az elvártaknak megfelelően működik. Tesztelve: Brave-ben Balázs Bence által.
+
+
 
 18\. Regisztrációs felület
 ---------------------------------------------------
