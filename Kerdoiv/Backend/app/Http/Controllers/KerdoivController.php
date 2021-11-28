@@ -25,13 +25,14 @@ class KerdoivController extends Controller
 
     public function store(Request $request)
     {
-	file_put_contents("kerdoivecontroller.log", "kerdoiv_store".PHP_EOL);
+	file_put_contents("kerdoivecontroller.log", "store".PHP_EOL);
 	file_put_contents("kerdoivecontroller.log", strval($request).PHP_EOL, FILE_APPEND);
 	$k = new Kerdoiv;
-	$k->title = $request->title;
-	$k->is_separated = $request->is_separated;
-	$k->is_randomised = $request->is_randomised;
-	$ks = $request->kerdesek;
+        $requestKerdoiv = $request->kerdoiv;
+	$k->title = $requestKerdoiv["title"];
+	$k->is_separated = $requestKerdoiv["is_separated"];
+	$k->is_randomised = $requestKerdoiv["is_randomised"];
+	$ks = $requestKerdoiv["kerdesek"];
 	$k->save();
 	file_put_contents("kerdoivecontroller.log", gettype($ks).PHP_EOL, FILE_APPEND);
 	$kerdesek = [];
@@ -41,8 +42,20 @@ class KerdoivController extends Controller
 	    $kerdes->order_number = $tk['order_number'];
             $kerdes->question = $tk['question'];	
             $kerdes->type= $tk['type'];	
-            $kerdes->is_predictive = $tk['is_predictive'];	
-            $kerdes->correct_answer = $tk['correct_answer'];	
+            $kerdes->is_predictive = $tk['is_predictive'];
+            if(array_key_exists("correct_answer", $tk)){
+                file_put_contents("kerdoivecontroller.log", "array_key_exists".PHP_EOL, FILE_APPEND);
+                $kerdes->correct_answer = $tk['correct_answer'];	
+            } else {
+                file_put_contents("kerdoivecontroller.log", "not".PHP_EOL, FILE_APPEND);
+                $kerdes->correct_answer = "";
+            }
+            if($kerdes->correct_answer == null){
+                $kerdes->correct_answer = "";
+            }
+            file_put_contents("kerdoivecontroller.log", $kerdes->correct_answer.PHP_EOL, FILE_APPEND);
+            
+            
             $kerdesek[] = $kerdes;
             file_put_contents("kerdoivecontroller.log", $kerdes.PHP_EOL, FILE_APPEND);
 	    /*
@@ -67,8 +80,65 @@ class KerdoivController extends Controller
 
     public function update(Request $request, Kerdoiv $kerdoiv)
     {
-        $kerdoiv->update($request->all());
-
+        file_put_contents("kerdoivecontroller.log", "r:".strval($request).PHP_EOL);
+        file_put_contents("kerdoivecontroller.log", "------------------".strval($kerdoiv).PHP_EOL, FILE_APPEND);
+        //$kerdoiv->update($request->all());
+        $requestKerdoiv = $request->kerdoiv;
+        $kerdoiv->title = $requestKerdoiv["title"];
+        $kerdoiv->is_separated = $requestKerdoiv["is_separated"];
+        $kerdoiv->is_randomised = $requestKerdoiv["is_randomised"];
+        
+        $ks = $requestKerdoiv["kerdesek"];
+        $kerdesek = [];
+        $megtartando_kerdes_id =[];
+        foreach($ks as $tk) {
+            if(array_key_exists("id", $tk)){
+                $kerdes = Kerdes::find($tk["id"]);
+                $megtartando_kerdes_id[] = $tk["id"];
+            } else {
+                $kerdes = new Kerdes;
+            }
+            $kerdes->order_number = $tk['order_number'];
+            $kerdes->question = $tk['question'];	
+            $kerdes->type= $tk['type'];	
+            /*if(array_key_exists("is_predictive", $tk)){
+                $kerdes->is_predictive = $tk['is_predictive'];	
+            } else {
+                $kerdes->is_predictive = false;
+            }*/
+            $kerdes->is_predictive = $tk['is_predictive'];
+            if(array_key_exists("answers", $tk)){
+                $kerdes->answers = $tk['answers'];	
+            } else {
+                $kerdes->answers = "";
+            }
+            if($kerdes->answers == null){
+                $kerdes->answers = "";
+            }
+            if(array_key_exists("correct_answer", $tk)){
+                file_put_contents("kerdoivecontroller.log", "array_key_exists".PHP_EOL, FILE_APPEND);
+                $kerdes->correct_answer = $tk['correct_answer'];	
+            } else {
+                file_put_contents("kerdoivecontroller.log", "not".PHP_EOL, FILE_APPEND);
+                $kerdes->correct_answer = "";
+            }
+            if($kerdes->correct_answer == null){
+                $kerdes->correct_answer = "";
+            }
+            $kerdesek[] = $kerdes;
+        }
+        //$kerdoiv->kerdesek()->saveMany($kerdesek);
+        foreach($kerdoiv->kerdesek as $dbkerdes) {
+            if(!in_array($dbkerdes["id"], $megtartando_kerdes_id)){
+                $dbkerdes->delete();
+                file_put_contents("kerdoivecontroller.log", "torlendo kerdes id: ".strval($dbkerdes["id"]).PHP_EOL, FILE_APPEND);
+                file_put_contents("kerdoivecontroller.log", "megtartando_kerdes_id: ". json_encode($megtartando_kerdes_id).PHP_EOL, FILE_APPEND);
+                file_put_contents("kerdoivecontroller.log", "torlendo kerdes: ".strval($dbkerdes).PHP_EOL, FILE_APPEND);
+            }
+        }
+        $kerdoiv->kerdesek()->saveMany($kerdesek);
+        
+        $kerdoiv->save();
         return response()->json($kerdoiv, 200);
     }
 
