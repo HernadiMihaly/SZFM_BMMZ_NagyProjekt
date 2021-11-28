@@ -77,6 +77,9 @@ Tényleges viselkedés: A login képernyőn adminisztrátori jogokkal történő
 
 Tényleges viselkedés: A login képernyőn a gombok elérhetőek adminisztrátori jogokkal történő bejelentkezés esetén. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A login képernyőn admin jogokkal siekeresen beléptem. A megfelelő gombok elérhetőek.  Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
+
 4\. Új kérdőív felvétele felület
 --------------------------
 
