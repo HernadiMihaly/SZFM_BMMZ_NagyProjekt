@@ -19,13 +19,13 @@ Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdése
 
 Elvárt viselkedés: A válaszok lementése gombra kattintva a megadott válaszok lementése megtörténik, akkor is ha nem minden kérdéshez volt megadva válasz. Átirányítás történik egy a kitöltést megköszönő oldalra.
 
-Tényleges viselkedés: A válaszok beküldése megtörténik teljes és hiányos kitöltés esetén is. Az átirányítás helyesen működik.
+Tényleges viselkedés: A válaszok beküldése megtörténik teljes és hiányos kitöltés esetén is. Az átirányítás helyesen működik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 3\. Belépés admin felhasználóval
 --------------------------
 Elvárt viselkedés: A Home képernyőn tetején elhelyezkedő login szövegre kattintva megjelenik a bejelentkezési felület. A teszteléshez egy előre létrehozott admin felhasználóval lépjünk be. A megfelelő email és jelszó megadása után a Bejelentkezés gombra kattintva átirányítás történik a home képernyőre. Adminként bejelentkezve a kérdőívek neve mellett megjelenik egy szerkesztés és törlés gomb, valamint a kérdőívek listája alatt egy kérdőív létrehozásra szolgáló plusz gomb.
 
-Tényleges viselkedés: 
+Tényleges viselkedés: A login képernyőn a megfelelő bejelentkezési adatok megadása után be tudunk lépni adminként, és a home képernyőn a gombok elérhetővé válnak. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 4\. Új kérdőív felvétele felület
 --------------------------
