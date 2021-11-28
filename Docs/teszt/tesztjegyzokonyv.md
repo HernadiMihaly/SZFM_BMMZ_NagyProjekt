@@ -206,6 +206,8 @@ Tényleges viselkedés: A kérdések szétválasztása esetén a tudásmérő é
 
 Tényleges viselkedés: A kérdések szétválasztása után a tudásmérő és prediktív kérdések külön kategóriában jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kérdések szétválasztását követően a tudásfelmérő és prediktív kérdések is külön-külön kategóriában jelennek meg. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 12\. Kérdőív szerkesztése: Kérdések sorrendjének randomizálása
 ---------------------------------------------------
 
