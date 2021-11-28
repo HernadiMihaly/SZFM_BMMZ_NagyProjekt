@@ -73,6 +73,8 @@ Elvárt viselkedés: A Home képernyőn a kérdőívek neve mellett megjelenő s
 
 Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva megjelennek az adott kérdőív adatai. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva megjelennek az adott kérdőív adatai. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 8\. Kérdőív szerkesztése: Kérdőív tulajdonságok módosítása
 ---------------------------
 
