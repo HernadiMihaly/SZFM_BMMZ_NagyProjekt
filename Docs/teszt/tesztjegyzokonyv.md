@@ -118,6 +118,8 @@ Tényleges viselkedés: Egy kérdésen végzett módosítások a szerkesztés ú
 
 Tényleges viselkedés: Egy kérdés módosításai a szerkesztés ismét megnyitása után is láthatóak. A lista típusú kérdésnél megjelennek a beállított válaszlehetőségek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Kérdések szerkesztése során a frissített kérdések jelennek meg. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 10\. Kérdőív szerkesztése: Kérdés lista módosítása
 ---------------------------------------------------
 
