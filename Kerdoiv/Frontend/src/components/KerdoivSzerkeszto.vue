@@ -6,6 +6,10 @@
      </h2>
      <div>
        Kérdőív Cím: <InputText v-model="kerdoiv.title"/>
+       Szétválasztott: <Checkbox v-model="kerdoiv.is_separated"
+                        :binary="true"></Checkbox>
+       Randomizált sorrend: <Checkbox v-model="kerdoiv.is_randomised"
+                        :binary="true"></Checkbox>
      </div>
     
             <div>
@@ -31,14 +35,12 @@
                     </Column>
                     <Column field="is_predictive" header="Prediktív?">
                         <template #editor="{ data, field }">
-                            <Dropdown v-model="data[field]" autofocus :options="options2" optionLabel="label" 
-                                optionValue="value" 
-                                placeholder='Kérem válasszon!'/>
+                            <Checkbox v-model="data[field]"
+                                :binary="true" autofocus/>
                         </template>
                          <template #body="{data, field}">
-                            <Dropdown v-model="data[field]" autofocus :options="options2" optionLabel="label" 
-                                optionValue="value" 
-                                placeholder='Kérem válasszon!'/>
+                            <Checkbox v-model="data[field]"
+                                :binary="true" autofocus/>
                         </template>
                     </Column>
                     <Column field="type" header="Típus">
@@ -58,17 +60,22 @@
                             <InputText v-model="data[field]" autofocus />
                         </template>
                     </Column>
+                    <Column header="Törlés">
+                        <template #body="slotProps">
+                            <Button icon="pi pi-trash" class="p-button-rounded p-button-danger" @click="deleteKerdes(slotProps)"/>
+                        </template>
+                    </Column>
                 </DataTable>
                 
             </div>
             <Button label="Új Kérdés" @click="ujKerdes()"></Button>
-            <Button>Mentés</Button>
+            <Button label="Mentés" @click="kerdoivMentes()"></Button>
   </div>
   
 </template>
 
 <script>
-//import Checkbox from 'primevue/checkbox';
+import Checkbox from 'primevue/checkbox';
 import Dropdown from 'primevue/dropdown';
 //import MultiSelect from 'primevue/multiselect';
 //import InputNumber from 'primevue/inputnumber';
@@ -86,7 +93,8 @@ export default {
     DataTable,
     Column,
     InputText,
-    //Checkbox,
+    //InputNumber,
+    Checkbox,
     Button,
     Dropdown
   },
@@ -135,32 +143,92 @@ export default {
     ujKerdes(){
         this.kerdesek.push({"order_number": this.kerdesek.length + 1,
             "question": "",
-            "type": "string", "is_predictive": 1,
+            "type": "string", "is_predictive": 0,
             "correct_answer": "", 
             "answers": ""});
+    },
+    kerdoivMentes() {
+      this.kerdoiv.is_separated = this.kerdoiv.is_separated? 1 : 0;
+      this.kerdoiv.is_randomised = this.kerdoiv.is_randomised? 1 : 0;
+      this.kerdoiv.kerdesek.forEach(function (kerdes) {
+        kerdes.is_predictive = kerdes.is_predictive? 1 : 0;
+      });
+      if ("id" in this.kerdoiv) {
+        //alert("módosítás");
+        this.axios.put('http://localhost:8000/api/kerdoivek/' + this.kerdoiv.id.toString(), {'kerdoiv':this.kerdoiv})
+          .then(response => {
+            this.info = response.data;
+
+            this.$router.push('/');
+          })
+          .catch(error => {
+            this.info = error.message;
+            console.error("There was an error!", error);
+          });
+      } else {
+        this.axios.post('http://localhost:8000/api/kerdoivek/', {'kerdoiv':this.kerdoiv})
+          .then(response => {
+            this.info = response.data;
+
+            this.$router.push('/');
+          })
+          .catch(error => {
+            this.info = error.message;
+            console.error("There was an error!", error);
+          });
+      }
+
+    },
+    deleteKerdes(row){
+        var torlendo_kerdes = row.data;
+        var has_id = "id" in torlendo_kerdes;
+        //alert(JSON.stringify(torlendo_kerdes));
+        var torlendo_index = -1;
+        this.kerdesek.forEach(function (kerdes, i) {    
+            if(has_id){
+              if(torlendo_kerdes.id == kerdes.id){
+                torlendo_index = i;
+              } 
+            } else {
+              if(torlendo_kerdes.order_number == kerdes.order_number){
+                torlendo_index = i;
+              }
+            }
+
+        });
+        if(torlendo_index >=0){
+          this.kerdoiv.kerdesek.splice(torlendo_index,1);
+        }
     }
   },
   mounted () {
-    this.axios
-      .get('http://localhost:8000/api/kerdoivek/' + this.$route.params.kerdoiv_id )
-      .then(response => {
-        this.info = response.data;
-        
-        this.kerdoiv = response.data.kerdoiv;
+    if(this.$route.params.kerdoiv_id == 0){
+        this.kerdoiv.title = "Kérdőív cím";
         this.title = this.kerdoiv.title;
+        this.kerdoiv.is_randomised = false;
+        this.kerdoiv.is_separated = false;
+        this.kerdoiv.kerdesek = [];
         this.kerdesek = this.kerdoiv.kerdesek;
-        this.kerdesek.forEach(function (kerdes) {
-            switch (kerdes.type) {
-                case "boolean":
-                    kerdes.b = kerdes.is_predictive == 1;
-                    break;
-            }
-        });
-      })
+    } else {
+        this.axios
+          .get('http://localhost:8000/api/kerdoivek/' + this.$route.params.kerdoiv_id )
+          .then(response => {
+            this.info = response.data;
+            
+            this.kerdoiv = response.data.kerdoiv;
+            this.title = this.kerdoiv.title;
+            this.kerdoiv.is_randomised = this.kerdoiv.is_randomised == 1;
+            this.kerdoiv.is_separated = this.kerdoiv.is_separated == 1;
+            this.kerdesek = this.kerdoiv.kerdesek;
+            this.kerdesek.forEach(function (kerdes) {    
+              kerdes.is_predictive = kerdes.is_predictive == 1;
+            });
+          })
+    }
+
   }
 }
 </script>
-
 
 <style scoped>
 h3 {
