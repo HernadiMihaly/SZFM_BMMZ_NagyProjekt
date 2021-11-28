@@ -185,7 +185,7 @@ Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más s
 
 Tényleges viselkedés: Randomizációt használva a kérdések más sorrendben jelennek meg abban az esetben, ha van két kérdés szétválasztás nélkül, vagy van legalább három kérdés szétválasztással. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
-Tényleges viselkedés: Randomizáció használata esetén, a kérdések más sorrendben jelennek meg minden kitöltéskor, feltéve hogy van legalább három kérdés szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Balázs Bence-ban Balázs Bence által.
+Tényleges viselkedés: Randomizáció használata esetén, a kérdések más sorrendben jelennek meg minden kitöltéskor, feltéve hogy van legalább három kérdés szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Brave-ben Balázs Bence által.
 
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
@@ -200,6 +200,8 @@ Tényleges viselkedés: A kérdések rendezése a megadott sorrend alapján tör
 Tényleges viselkedés: A megadott sorrend alapján történik a kérdések rendezése . Szétválasztás beállítása után a a prediktív kérdések  tudásfelmérő kérdések után kerülnek, a két blokkban pedig a megadott sorrend szerint vannak rendezve. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 Tényleges viselkedés: A kérdések rendezáse a manuális sorrendünk alapján történik. Szétválasztás esetén a prediktív és tudásfelmérő kérdések után kerülnek, a blokkokban a sorrend szerint vannak rendezve. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: A kérdések rendezáse a manuálisan megadott sorrendünk alapján történik. Szétválasztás beállítása után a tudásfelmérő kérdések a prediktív kérdések elé kerülnek, a blokkokban a sorrend szerint kerülnek rendezésre.  Tesztelve: Brave-ben Balázs Bence által.
 
 14\. Válaszok listázása felület
 ---------------------------------------------------
