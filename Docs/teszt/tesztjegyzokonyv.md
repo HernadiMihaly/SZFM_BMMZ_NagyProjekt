@@ -184,6 +184,8 @@ Erre kattintva megnyílik a regisztrációs felület.
 
 Tényleges viselkedés: A Logout gombbal történő kijelentkezés után láthatóvá válik a Regisztráció felirat. A regisztrációs felület sikeresen megnyílik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A Logout gombbal való kijelentkezés után láthatóvá válik a Regisztráció. A regisztrációs felület megnyílik. Opera Gx-ben Kiss Marcell által.
+
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
 
