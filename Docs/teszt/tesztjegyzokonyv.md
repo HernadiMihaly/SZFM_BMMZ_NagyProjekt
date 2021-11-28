@@ -295,3 +295,5 @@ Tényleges viselkedés: Ha nem valid User adatokat adunk meg, a regisztráció n
 Tényleges viselkedés: Ha nem jó User adatokat adunk meg, a regisztráció nem sikerül. A hibaüzenet nem mindig adja meg pontosan, hogy mi volt a hiba. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 Tényleges viselkedés: Hibás adatok alkalmazása esetén a regisztráció nem megy végbe. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: Érvénytelen User adatok megadása esetén, a regisztráció hibába ütközik. A hibaüzenet nem nyújt mindig  pontos választ arra, hogy mi volt a hiba. Tesztelve: Brave-ben Balázs Bence által.
