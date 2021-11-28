@@ -100,6 +100,8 @@ Tényleges viselkedés: A törlés gomb után az OK gomb sikeresen törli a kér
 
 Tényleges viselkedés: A törlést elfogadó, illetve megtagadó gombok megfelelően működnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A gombok megfelelően működnek, funkcióikat ellátják. Tesztelve: Brave-ben Balázs Bence által.
+
 7\. Kérdőív szerkesztése felület
 --------------------------------------------
 
