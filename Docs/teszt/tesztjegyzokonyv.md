@@ -155,6 +155,8 @@ Tényleges viselkedés: A kérdőív szerkesztő beállítások az elvártnak me
 
 Tényleges viselkedés: A szerkesztő beállítások az elvártnak megfelelően működnek, a gombok és felületek a funkcióikat hiba nélkül teljesítik. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kérdőív adatai (cím, tudásfelmérő-prediktív megkülönböztetés, sorrend) sikeresen változtathatók. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 9\. Kérdőív szerkesztése: Kérdés tulajdonságok módosítása
 ---------------------------
 
