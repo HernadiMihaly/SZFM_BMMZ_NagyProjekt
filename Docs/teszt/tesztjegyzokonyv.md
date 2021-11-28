@@ -130,6 +130,8 @@ Tényleges viselkedés: A hozzáadott új kérdések sikeresen lementődnek, a t
 
 Tényleges viselkedés: Az újonnan hozzáadott kérdések sikeresen elmentődnek, a törölt kérdések pedig eltűnnek a kérdőívből. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az új kérdések mentésre kerülnek, a törlendő kérdések megszűnnek a kérdőívben. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 11\. Kérdőív szerkesztése: Prediktív és tudásfelmérő kérdések szétválasztása
 ---------------------------------------------------
 
