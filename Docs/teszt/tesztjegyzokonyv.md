@@ -134,7 +134,7 @@ Tényleges viselkedés: A szűrés beállítása után csak a kiválasztott kér
 
 Elvárt viselkedés: Az egy kérdőívhez tartozó válaszok listáját át lehet rendezni az egyes oszlopok fejlécére kattintva. Beállítható fordított sorrend is, valamint a Ctrl billentyű nyomvatartásával több lépéses rendezés is megadható, például kitöltő szerint és azon belül kérdés szerint.
 
-Tényleges viselkedés:
+Tényleges viselkedés: Az egyes oszlopokban a rendezés beállítása után a tábla sorok megfelelő módon átrendeződnek. A fejlécre újboli kattintással a sorrend megfordítható. A több lépcsős rendezés megfelelően működik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 
 18\. Regisztrációs felület
