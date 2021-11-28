@@ -127,6 +127,8 @@ Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és r
 
 Tényleges viselkedés: A kérdőív szerkesztő beállítások az elvártnak megfelelően működnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A szerkesztő beállítások az elvártnak megfelelően működnek, a gombok és felületek a funkcióikat hiba nélkül teljesítik. Tesztelve: Brave-ben Balázs Bence által.
+
 9\. Kérdőív szerkesztése: Kérdés tulajdonságok módosítása
 ---------------------------
 
