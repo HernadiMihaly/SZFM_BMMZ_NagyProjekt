@@ -61,6 +61,10 @@ Tényleges viselkedés: A válaszok kitöltéstől függetlenül beküldésre ke
 
 Tényleges viselkedés: A válaszok beküldésre kerülnek kitöltéstől függetlenül. Működik az átirányítás. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A válaszok beküldése sikeresen végrehajtható, mind teljes, mind pedig hiányos kitöltés esetén. Az átirányítás sikeres a kitöltést megköszönő oldalra.
+Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
+
 3\. Belépés admin felhasználóval
 --------------------------
 Elvárt viselkedés: A Home képernyőn tetején elhelyezkedő login szövegre kattintva megjelenik a bejelentkezési felület. A teszteléshez egy előre létrehozott admin felhasználóval lépjünk be. A megfelelő email és jelszó megadása után a Bejelentkezés gombra kattintva átirányítás történik a home képernyőre. Adminként bejelentkezve a kérdőívek neve mellett megjelenik egy szerkesztés és törlés gomb, valamint a kérdőívek listája alatt egy kérdőív létrehozásra szolgáló plusz gomb.
