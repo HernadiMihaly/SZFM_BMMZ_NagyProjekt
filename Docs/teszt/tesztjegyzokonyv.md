@@ -55,6 +55,8 @@ Elvárt viselkedés: Az új kérdőív szerkesztése után a mentés gombra katt
 
 Tényleges viselkedés: Az új kérdőív lementése a megadott címmel megtörténik. A felvett kérdések is mentve vannak. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Az kérdőív a megadott címmel elmentődik. A felvett kérdések is elmentődnek. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 6\. Kérdőív törlése
 --------------------------------------------
 
