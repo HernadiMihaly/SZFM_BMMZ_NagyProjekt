@@ -115,6 +115,8 @@ Az adott kérdőív kitöltésénél a kérdések elkülönítve jelennek meg.
 
 Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés felületen 'Tudásfelmérő kérdések:' és 'Prediktív kérdések:' feliratok után jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés felületen 'Tudásfelmérő kérdések:' és 'Prediktív kérdések:' feliratok után jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 12\. Kérdőív szerkesztése: Kérdések sorrendjének randomizálása
 ---------------------------------------------------
 
