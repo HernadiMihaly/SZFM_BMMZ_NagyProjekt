@@ -143,7 +143,7 @@ Tényleges viselkedés: Egy kérdés módosításai a szerkesztés ismét megnyi
 
 Tényleges viselkedés: Kérdések szerkesztése során a frissített kérdések jelennek meg. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
-Tényleges viselkedés: Egy kérdés módosításai ismét láthatóak a szerkesztés ujjbóli megnyitása után is. A lista típusú kérdésnél a beállított válaszlehetőségek megjelennek. Tesztelve: Brvae-ben Balázs Bence által.
+Tényleges viselkedés: Egy kérdés módosításai ismét láthatóak a szerkesztés ujjbóli megnyitása után is. A lista típusú kérdésnél a beállított válaszlehetőségek megjelennek. Tesztelve: Brave-ben Balázs Bence által.
 
 10\. Kérdőív szerkesztése: Kérdés lista módosítása
 ---------------------------------------------------
@@ -156,6 +156,8 @@ Tényleges viselkedés: A hozzáadott új kérdések sikeresen lementődnek, a t
 Tényleges viselkedés: Az újonnan hozzáadott kérdések sikeresen elmentődnek, a törölt kérdések pedig eltűnnek a kérdőívből. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 Tényleges viselkedés: Az új kérdések mentésre kerülnek, a törlendő kérdések megszűnnek a kérdőívben. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: Az új kérdések sikeresen lementésre kerülnek, a törölt kérdések pedig törlésre kerülnek a kérdőívből. Tesztelve: Brave-ben Balázs Bence által.
 
 11\. Kérdőív szerkesztése: Prediktív és tudásfelmérő kérdések szétválasztása
 ---------------------------------------------------
