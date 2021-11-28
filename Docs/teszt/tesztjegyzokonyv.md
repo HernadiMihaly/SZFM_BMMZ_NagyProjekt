@@ -20,7 +20,7 @@ Elvárt viselkedés: A Home képernyőn egy kérdőív nevére kattintva megjele
 
 Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdések és válaszmezők hibák nélkül megjelennek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: A kitöltési felület és az egyes kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Opera Gx-ben Kiss Marcell által
+Tényleges viselkedés: A kitöltési felület és az egyes kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 2\. Kérdőív válaszok lementése
 --------------------------
@@ -28,6 +28,8 @@ Tényleges viselkedés: A kitöltési felület és az egyes kérdések és vála
 Elvárt viselkedés: A válaszok lementése gombra kattintva a megadott válaszok lementése megtörténik, akkor is ha nem minden kérdéshez volt megadva válasz. Átirányítás történik egy a kitöltést megköszönő oldalra.
 
 Tényleges viselkedés: A válaszok beküldése megtörténik teljes és hiányos kitöltés esetén is. Az átirányítás helyesen működik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
+
+Tényleges viselkedés: A válaszok beküldésre kerülnek teljes és hiányos kitöltés esetén is. Az átirányítás működik. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 3\. Belépés admin felhasználóval
 --------------------------
