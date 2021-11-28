@@ -74,6 +74,8 @@ Tényleges viselkedés: Megjelenik a kérdőív létrehozására alkalmas felül
 
 Tényleges viselkedés: A kérdőív létrehozó felület láthatóvá válik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A gomb megfelelően működik, a kérdőív létrehozó felület láthatóvá válik. Tesztelve: Brave-ben Balázs Bence által.
+
 5\. Új kérdőív lementése
 --------------------------
 
