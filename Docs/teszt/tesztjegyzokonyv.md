@@ -79,7 +79,7 @@ Tényleges viselkedés: Egy kérdésen végzett módosítások a szerkesztés ú
 Elvárt viselkedés: A kérdőív szerkesztés felületen a kérdések listája alatti Új kérdés gombra kattintva lehetőség van új kérdés hozzáadására, valamint az egyes kérdések sorának jobb oldalán megjelenő törlés gombra kattintva létező kérdés törlésére.
 A Mentés gomb megnyomása után átirányítás történik a Home képernyőre, és az adott kérdőív szerkesztése gombra újból rákattintva láthatjuk hogy a beállítások mentve lettek.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A hozzáadott új kérdések sikeresen lementődnek, a törölt kérdések pedig eltűnnek a kérdőívből. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 
 11\. Kérdőív szerkesztése: Prediktív és tudásfelmérő kérdések szétválasztása
