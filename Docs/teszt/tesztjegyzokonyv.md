@@ -39,7 +39,7 @@ Tényleges viselkedés: A kérdőív létrehozására alkalmas szerkesztési fel
 
 Elvárt viselkedés: Az új kérdőív szerkesztése után a mentés gombra kattintás után a bevitt adatok lementésre kerülnek és átirányítás történik a Home képernyőre. A felvett kérdőív megjelenik a listában.
 
-Tényleges viselkedés:
+Tényleges viselkedés: Az új kérdőív lementése a megadott címmel megtörténik. A felvett kérdések is mentve vannak. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 6\. Kérdőív törlése
 --------------------------------------------
