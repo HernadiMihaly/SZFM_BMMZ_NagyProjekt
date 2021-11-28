@@ -109,6 +109,9 @@ Tényleges viselkedés: Az általunk megadott kérdőív cím és kérdések is 
 
 Tényleges viselkedés: Az általunk felvett kérdések és kérdőív cím is mentésre kerülnek. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A megadott kérdőív cím és kérdések is sikeresen elmenthetőek, az átirányítás megtörténik a Home képernyőre, a kérdőív megjelenik.
+Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 6\. Kérdőív törlése
 --------------------------------------------
 
