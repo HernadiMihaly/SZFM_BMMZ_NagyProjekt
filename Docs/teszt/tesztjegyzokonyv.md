@@ -17,6 +17,13 @@ Böngésző verzió: Mozilla Firefox 94.0.2
 
 Operációs rendszer: Windows 10
 
+Tesztek Google Chrome böngészőn
+=======================
+
+Böngésző verzió: Brave 93.1.29.81
+
+Operációs rendszer: Windows 10
+
 
 1\. Kérdőív kitöltése felület
 -----------------------
