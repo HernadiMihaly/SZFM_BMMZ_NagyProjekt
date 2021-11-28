@@ -157,4 +157,4 @@ Tényleges viselkedés: A regisztráció sikeresen megtörténik, a login oldalo
 
 Elvárt viselkedés: Ha valamelyik mezőt nem töltjük ki, nem valid email-t adunk meg vagy különböző jelszót írunk a két jelszó mezőbe, akkor a regisztráció nem történik meg.
 
-Tényleges viselkedés:
+Tényleges viselkedés: Ha nem valid User adatokat adunk meg, a regisztráció nem megy végbe. A hibaüzenet nem mindig adja meg pontosan hogy miben volt a hiba. Tesztelve: Google Chrome-ban Osztós Zsombor által.
