@@ -142,6 +142,8 @@ Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés fel�
 
 Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés felületen 'Tudásfelmérő kérdések:' és 'Prediktív kérdések:' feliratok után jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdések szétválasztása esetén a tudásmérő és prediktív kérdések külön kategóriában jelennek meg. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 12\. Kérdőív szerkesztése: Kérdések sorrendjének randomizálása
 ---------------------------------------------------
 
