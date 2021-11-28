@@ -184,7 +184,7 @@ Erre kattintva megnyílik a regisztrációs felület.
 
 Tényleges viselkedés: A Logout gombbal történő kijelentkezés után láthatóvá válik a Regisztráció felirat. A regisztrációs felület sikeresen megnyílik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: A Logout gombbal való kijelentkezés után láthatóvá válik a Regisztráció. A regisztrációs felület megnyílik. Opera Gx-ben Kiss Marcell által.
+Tényleges viselkedés: A Logout gombbal való kijelentkezés után láthatóvá válik a Regisztráció. A regisztrációs felület megnyílik. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
@@ -193,7 +193,7 @@ Elvárt viselkedés: A név mezőt kitöltve, az email mezőben helyes email cí
 
 Tényleges viselkedés: A regisztráció sikeresen megtörténik, a login oldalon a bevitt adatokkal lehetséges a belépés. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokkal lehetséges a belépés. Opera Gx-ben Kiss Marcell által.
+Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokkal lehetséges a belépés. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
