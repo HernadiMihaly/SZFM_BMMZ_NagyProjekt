@@ -139,6 +139,8 @@ Tényleges viselkedés: A kérdőívet szerkesztő gomb megfelelően működik. 
 
 Tényleges viselkedés: A gomb megfelelően működik, funkcióikat ellátja. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kérdőív neve mellett lévő szerkesztés gomb megnyomása után megjelennek a kérdőív adatai.  Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 8\. Kérdőív szerkesztése: Kérdőív tulajdonságok módosítása
 ---------------------------
 
