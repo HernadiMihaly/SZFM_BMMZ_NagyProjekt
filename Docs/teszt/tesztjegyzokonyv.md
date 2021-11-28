@@ -173,6 +173,8 @@ Elvárt viselkedés: Az egy kérdőívhez tartozó válaszok listáját át lehe
 
 Tényleges viselkedés: Az egyes oszlopokban a rendezés beállítása után a tábla sorok megfelelő módon átrendeződnek. A fejlécre újboli kattintással a sorrend megfordítható. A több lépcsős rendezés megfelelően működik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Az egyes oszlopokban a rendezés beállítása után a tábla sorok megfelelő módon átrendeződnek. Ismét a fejlécre kattintva a sorrend megfordítható. M egfelelően működik a több lépcsős rendezés. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 
 18\. Regisztrációs felület
 ---------------------------------------------------
