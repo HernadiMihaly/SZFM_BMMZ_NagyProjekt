@@ -113,6 +113,8 @@ Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva
 
 Tényleges viselkedés: A kérdőívet szerkesztő gomb megfelelően működik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A gomb megfelelően működik, funkcióikat ellátja. Tesztelve: Brave-ben Balázs Bence által.
+
 8\. Kérdőív szerkesztése: Kérdőív tulajdonságok módosítása
 ---------------------------
 
