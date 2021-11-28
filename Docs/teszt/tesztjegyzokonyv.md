@@ -168,6 +168,8 @@ Tényleges viselkedés: A kérdések rendezése a megadott sorrend alapján tör
 
 Tényleges viselkedés: A megadott sorrend alapján történik a kérdések rendezése . Szétválasztás beállítása után a a prediktív kérdések  tudásfelmérő kérdések után kerülnek, a két blokkban pedig a megadott sorrend szerint vannak rendezve. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdések rendezáse a manuális sorrendünk alapján történik. Szétválasztás esetén a prediktív és tudásfelmérő kérdések után kerülnek, a blokkokban a sorrend szerint vannak rendezve. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 14\. Válaszok listázása felület
 ---------------------------------------------------
 
