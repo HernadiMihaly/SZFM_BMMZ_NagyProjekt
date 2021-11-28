@@ -105,6 +105,7 @@ A Mentés gomb megnyomása után átirányítás történik a Home képernyőre,
 
 Tényleges viselkedés: A hozzáadott új kérdések sikeresen lementődnek, a törölt kérdések pedig eltűnnek a kérdőívből. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Az újonnan hozzáadott kérdések sikeresen elmentődnek, a törölt kérdések pedig eltűnnek a kérdőívből. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 11\. Kérdőív szerkesztése: Prediktív és tudásfelmérő kérdések szétválasztása
 ---------------------------------------------------
