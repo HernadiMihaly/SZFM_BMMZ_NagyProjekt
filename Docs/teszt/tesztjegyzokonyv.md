@@ -88,7 +88,7 @@ Tényleges viselkedés: A hozzáadott új kérdések sikeresen lementődnek, a t
 Elvárt viselkedés: A kérdőív szerkesztése felületen beállítható, hogy a prediktív és tudásfelmérő kérdések szétválasztva jelenjenek meg. Ezt a beállítást bekapcsolva mentsünk egy több fajta kérdést tartalmazó kérdőívet.
 Az adott kérdőív kitöltésénél a kérdések elkülönítve jelennek meg.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés felületen 'Tudásfelmérő kérdések:' és 'Prediktív kérdések:' feliratok után jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 12\. Kérdőív szerkesztése: Kérdések sorrendjének randomizálása
 ---------------------------------------------------
