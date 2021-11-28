@@ -19,7 +19,7 @@ Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdése
 
 Elvárt viselkedés: A válaszok lementése gombra kattintva a megadott válaszok lementése megtörténik, akkor is ha nem minden kérdéshez volt megadva válasz. Átirányítás történik egy a kitöltést megköszönő oldalra.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A válaszok beküldése megtörténik teljes és hiányos kitöltés esetén is. Az átirányítás helyesen működik.
 
 3\. Belépés admin felhasználóval
 --------------------------
