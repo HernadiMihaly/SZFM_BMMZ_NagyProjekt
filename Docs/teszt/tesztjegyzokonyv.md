@@ -48,6 +48,8 @@ Tényleges viselkedés: A login képernyőn a megfelelő bejelentkezési adatok 
 
 Tényleges viselkedés: A login képernyőn be tudok lépni adminként és a gombok elérhetőek lesznek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A login képernyőn adminisztrátori jogokkal történő bejelentkezés esetén a gombok elérhetőek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 4\. Új kérdőív felvétele felület
 --------------------------
 
