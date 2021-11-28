@@ -154,6 +154,8 @@ Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések minden
 
 Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más sorrendben jelennek meg minden kitöltéskor , feltéve hogy legalább három kérdés létezik  szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Randomizációt használva a kérdések más sorrendben jelennek meg abban az esetben, ha van két kérdés szétválasztás nélkül, vagy van legalább három kérdés szétválasztással. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
 ---------------------------------------------------
