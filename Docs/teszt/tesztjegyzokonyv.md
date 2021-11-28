@@ -171,6 +171,8 @@ Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés fel�
 
 Tényleges viselkedés: A kérdések szétválasztása esetén a tudásmérő és prediktív kérdések külön kategóriában jelennek meg. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A kérdések szétválasztása után a tudásmérő és prediktív kérdések külön kategóriában jelennek meg az egyes kategóriákba tartozó kérdések. Tesztelve: Brave-ben Balázs Bence által.
+
 12\. Kérdőív szerkesztése: Kérdések sorrendjének randomizálása
 ---------------------------------------------------
 
