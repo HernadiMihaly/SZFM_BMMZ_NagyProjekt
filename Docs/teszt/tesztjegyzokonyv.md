@@ -269,6 +269,8 @@ Tényleges viselkedés: A Logout gombbal való kijelentkezés után láthatóvá
 
 Tényleges viselkedés: A Logout gomb megfelelően működik, használata után megjelenik a regisztráció, melynek felülete megjelenik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A Logout gomb megnyomása után láthatóvá válik a Regisztrációs felület. A regisztrációs felület megnyílik. Tesztelve: Brave-ben Balázs Bence által.
+
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
 
