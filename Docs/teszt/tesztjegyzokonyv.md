@@ -127,7 +127,7 @@ Tényleges viselkedés: Ha olyan kérdőívre kattintunk amelyikhez vannak táro
 
 Elvárt viselkedés: Az egy kérdőívhez tartozó válaszok listáját lehet szűrni a Kérdés oszlopban lévő szűrő ikonra kattintva. Szűrés után csak a kiválasztott kérdésekre adott válaszok jelennek meg.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A szűrés beállítása után csak a kiválasztott kérdéshez vagy kérdésekhez tartozó válaszok jelennek meg. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 17\. Válaszok listázása utáni átrendezés
 ---------------------------------------------------
