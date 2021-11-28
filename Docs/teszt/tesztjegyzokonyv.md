@@ -201,6 +201,8 @@ Tényleges viselkedés: A szűrés beállítása után csak a kiválasztott kér
 
 Tényleges viselkedés: A szűrés alkalmazása után csak a kiválasztott kérdéshez vagy kérdésekhez tartozó válaszok jelennek meg. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdésekhez tartozó válaszok szűrésére implementált szűrő megfelelően működik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 17\. Válaszok listázása utáni átrendezés
 ---------------------------------------------------
 
