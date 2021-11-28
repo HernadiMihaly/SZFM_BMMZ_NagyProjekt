@@ -155,7 +155,7 @@ Elvárt viselkedés: A választható kérdőívek listából egyre rákattintva 
 
 Tényleges viselkedés: Ha olyan kérdőívre kattintunk amelyikhez vannak tárolva válaszok, akkor azok megjelennek az alsó táblázatban. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: Olyan kérdőívre kattintva amelyikhez már vannak tárolva válaszok, akkor azok megjelennek az alsó táblázatban.
+Tényleges viselkedés: Olyan kérdőívre kattintva amelyikhez már vannak tárolva válaszok, akkor azok megjelennek az alsó táblázatban. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 16\. Válaszok listázása utáni szűrés
 ---------------------------------------------------
