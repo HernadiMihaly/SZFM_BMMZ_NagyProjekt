@@ -146,6 +146,8 @@ Elvárt viselkedés: A Home képernyő navigációs menüjében (képernyő tete
 
 Tényleges viselkedés: Admin felhasználóként bejelentkezve sikeresen elérjük a válasz listázási nézetet. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Adminként bejelentkezve sikeresen  megjelenik a válasz lekérdező felület. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 15\. Válaszok listázása egy kérdőívhez
 ---------------------------------------------------
 
