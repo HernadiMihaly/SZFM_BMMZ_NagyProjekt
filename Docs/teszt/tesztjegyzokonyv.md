@@ -143,7 +143,7 @@ Tényleges viselkedés: Az egyes oszlopokban a rendezés beállítása után a t
 Elvárt viselkedés: Ha nem vagyunk bejelentkezve, akkor a Home képernyő tetején megjelenik a Regisztráció.
 Erre kattintva megnyílik a regisztrációs felület.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A Logout gombbal történő kijelentkezés után láthatóvá válik a Regisztráció felirat. A regisztrációs felület sikeresen megnyílik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
