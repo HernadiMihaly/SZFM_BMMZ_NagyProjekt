@@ -24,6 +24,13 @@ Böngésző verzió: Brave 93.1.29.81
 
 Operációs rendszer: Windows 10
 
+Tesztek Microsoft Edge böngészőn
+=======================
+
+Böngésző verzió: Microsoft Edge 93.0.961.52
+
+Operációs rendszer: Windows 10
+
 
 1\. Kérdőív kitöltése felület
 -----------------------
