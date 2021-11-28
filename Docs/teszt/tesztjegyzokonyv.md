@@ -222,6 +222,8 @@ Tényleges viselkedés: Randomizációt használva a kérdések más sorrendben 
 
 Tényleges viselkedés: Randomizáció használata esetén, a kérdések más sorrendben jelennek meg minden kitöltéskor, feltéve hogy van legalább három kérdés szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kérdések szerkesztése felületen lévő randomizálás beállítása sikeresen végrehajtható. A kérdések minden kitöltéskor más sorrendben jelennek meg, feltéve hogy legalább három kérdés létezik szétválasztással, vagy két kérdés szétválasztás nélkül.
+Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
 ---------------------------------------------------
