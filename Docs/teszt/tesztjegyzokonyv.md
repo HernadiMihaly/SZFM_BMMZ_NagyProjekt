@@ -96,7 +96,7 @@ Tényleges viselkedés: A szétválasztás bekapcsolása után a kitöltés fel�
 Elvárt viselkedés: A kérdőív szerkesztése felületen beállítható, hogy a kérdések neve randomizált sorrendben jelenjen meg. Ezt a beállítást bekapcsolva mentsünk egy több kérdést tartalmazó kérdőívet.
 Az adott kérdőív kitöltésénél a kérdések minden kitöltéskor véletlenszerű sorrendben jelennek meg.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések minden kitöltéskor más sorrendben jelennek meg, feltéve hogy van legalább három kérdés szétválasztás mellett vagy két kérdés szétválasztás nélkül. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
