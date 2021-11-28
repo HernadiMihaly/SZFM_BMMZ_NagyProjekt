@@ -11,9 +11,19 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/login',
+    name: 'Login',
+    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue')
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: () => import(/* webpackChunkName: "login" */ '../views/Register.vue')
+  },
+  {
+    path: '/listanswers',
+    name: 'ListAnswers',
+    component: () => import(/* webpackChunkName: "login" */ '../views/ListAnswers.vue')
   },
   {
     path: '/thankyou',
@@ -28,7 +38,8 @@ const routes = [
   {
     path: '/kerdoiv_szerkesztes/:kerdoiv_id',
 	name: 'kerdoiv_szerkesztes',
-    component: () => KerdoivSzerkesztes
+    component: () => KerdoivSzerkesztes,
+    meta:{is_admin_page:true}
   }
 ]
 
