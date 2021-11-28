@@ -179,6 +179,8 @@ Tényleges viselkedés: Admin felhasználóként bejelentkezve sikeresen elérj�
 
 Tényleges viselkedés: Adminként bejelentkezve sikeresen  megjelenik a válasz lekérdező felület. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Adminisztrátor jogokkal történő belépés esetén a válasz lekérdező felület válik elérhetővé. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 15\. Válaszok listázása egy kérdőívhez
 ---------------------------------------------------
 
