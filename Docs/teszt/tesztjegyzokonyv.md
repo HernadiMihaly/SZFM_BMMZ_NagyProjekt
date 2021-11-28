@@ -225,6 +225,8 @@ Tényleges viselkedés: A Logout gombbal történő kijelentkezés után láthat
 
 Tényleges viselkedés: A Logout gombbal való kijelentkezés után láthatóvá válik a Regisztráció. A regisztrációs felület megnyílik. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A Logout gomb megfelelően működik, használata után megjelenik a regisztráció, melynek felülete megjelenik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
 
