@@ -236,6 +236,8 @@ Tényleges viselkedés: A regisztráció sikeresen megtörténik, a login oldalo
 
 Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokkal lehetséges a belépés. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Helyes adatokat használva a regisztráció sikeresen végbemegy. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
 
