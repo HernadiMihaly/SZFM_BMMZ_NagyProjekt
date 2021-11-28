@@ -5,6 +5,12 @@ Böngésző verzió: Chrome 96.0.4664.45
 
 Operációs rendszer: Windows 10
 
+Tesztek Opera GX böngészőn
+=======================
+Böngésző verzió: Opera GX 92
+
+Operációs rendszer: Windows 10
+
 
 
 1\. Kérdőív kitöltése felület
@@ -13,6 +19,8 @@ Operációs rendszer: Windows 10
 Elvárt viselkedés: A Home képernyőn egy kérdőív nevére kattintva megjelenik az adott kérdőívhez tartozó kérdés lista, és minden kérdéshez válasz megadására alkalmas komponens.
 
 Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdések és válaszmezők hibák nélkül megjelennek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
+
+Tényleges viselkedés: A kitöltési felület és az egyes kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Opera Gx-ben Kiss Marcell által
 
 2\. Kérdőív válaszok lementése
 --------------------------
