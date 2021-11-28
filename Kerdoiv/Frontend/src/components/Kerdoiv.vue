@@ -3,10 +3,14 @@
   
     <h2>
           {{ title }}
-     </h2>
-  
-
+    </h2>
+    
+    
     <ul>
+        <h3 v-if="is_separated == 1" class="sep_header">
+            Tudásfelmérő kérdések:
+        </h3>
+  
         <li class="kerdes" v-for="(kerdes, index) in kerdesek" v-bind:key="kerdes.id">
             <div>
                 <h3>{{ index + 1 }}. {{ kerdes.question }}</h3>
@@ -33,8 +37,12 @@
                     </MultiSelect>
                     
                 </div>
+                <h3 v-if="is_separated == 1 && index == pred_kezd_idx - 1" class="sep_header">
+                    Prediktív kérdések:
+                </h3>
             </div>
         </li>
+
         <Button label="Válaszok beküldése" @click="handleClick($event)"></Button>
 
     </ul>
@@ -68,6 +76,10 @@ export default {
       info: null,
       title: "",
       kerdesek: [],
+      //kerdesek_tud: [],
+      //kerdesek_pred: [],
+      is_separated: 0,
+      pred_kezd_idx: 0,
       szamvalasz: 0,
       kerdes_index: 0,
       selectedListaelemek: [],
@@ -88,7 +100,7 @@ export default {
   methods: {
     handleClick() {
         this.info = "";
-        alert(1);
+        //alert(1);
         var valaszok = [];
         var form = this.form;
         this.kerdesek.forEach(function (kerdes, i) {
@@ -113,7 +125,7 @@ export default {
                            'value': value};
             valaszok.push(valasz);
         })
-        alert(JSON.stringify({'valaszok':valaszok}));
+        //alert(JSON.stringify({'valaszok':valaszok}));
         this.axios.post('http://localhost:8000/api/valaszokmentese/', {'valaszok':valaszok})
           .then(response => {
             this.info = response.data;
@@ -124,6 +136,15 @@ export default {
             this.info = error.message;
             console.error("There was an error!", error);
           });
+    },
+    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+    shuffleArray(array) {
+      for (var i = array.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+      }
     }
   },
   mounted () {
@@ -133,6 +154,25 @@ export default {
         this.info = response.data;
         this.title = response.data.kerdoiv.title;
         this.kerdesek = response.data.kerdoiv.kerdesek;
+        if(response.data.kerdoiv.is_randomised == 0){
+          this.kerdesek = this.kerdesek.sort((a,b) => (a.order_number > b.order_number) ? 1 : ((b.order_number > a.order_number) ? -1 : 0));
+        } else {
+          this.shuffleArray(this.kerdesek);
+        }
+        if(response.data.kerdoiv.is_separated == 1){
+          this.is_separated = 1;
+          let temp_pred = [];
+          let temp_tud = [];
+          this.kerdesek.forEach(function (kerdes) {
+              if(kerdes.is_predictive == 1) {
+                temp_pred.push(kerdes);
+              } else {
+                temp_tud.push(kerdes);
+              }
+          });
+          this.kerdesek = temp_tud.concat(temp_pred);
+          this.pred_kezd_idx = temp_tud.length;
+        }
         var opt = this.options;
         this.kerdesek.forEach(function (kerdes, i) {
           switch (kerdes.type) {
@@ -149,7 +189,6 @@ export default {
   }
 }
 </script>
-
 
 <style scoped>
 h3 {
@@ -174,6 +213,9 @@ a {
 }
 .stringinput {
   border: 1px solid indianred;
+}
+.sep_header{
+   text-align: left;
 }
 </style>
 
