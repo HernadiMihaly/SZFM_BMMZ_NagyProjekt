@@ -120,7 +120,7 @@ Tényleges viselkedés: Admin felhasználóként bejelentkezve sikeresen elérj�
 
 Elvárt viselkedés: A választható kérdőívek listából egyre rákattintva a kérdőív lista alatti DataTable-ben megjelennek az ehhez a kérdőívhez eltárolt válaszok.
 
-Tényleges viselkedés:
+Tényleges viselkedés: Ha olyan kérdőívre kattintunk amelyikhez vannak tárolva válaszok, akkor azok megjelennek az alsó táblázatban. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 16\. Válaszok listázása utáni szűrés
 ---------------------------------------------------
