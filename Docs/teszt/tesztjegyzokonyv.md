@@ -61,7 +61,7 @@ Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva
 Elvárt viselkedés: A kérdőív szerkesztés felületen beállítható a kérdőív címe, valamint aktiválható és deaktiválható a tudásfelmérő és prediktív kérdések elválasztása és a kérdéssorrend randomizálása.
 A Mentés gomb megnyomása után átirányítás történik a Home képernyőre, és az adott kérdőív szerkesztése gombra újból rákattintva láthatjuk hogy a beállítások mentve lettek.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és randomizálására vonatkozó tulajdonságokon végzett változtatások mentés után sikeresen lementődnek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 9\. Kérdőív szerkesztése: Kérdés tulajdonságok módosítása
 ---------------------------
