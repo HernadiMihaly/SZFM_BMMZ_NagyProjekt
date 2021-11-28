@@ -38,6 +38,8 @@ Tényleges viselkedés: A válaszok beküldése megtörténik teljes és hiányo
 
 Tényleges viselkedés: A válaszok beküldésre kerülnek teljes és hiányos kitöltés esetén is. Az átirányítás működik. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A válaszok kitöltéstől függetlenül beküldésre kerülnek. Az átirányítás működik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 3\. Belépés admin felhasználóval
 --------------------------
 Elvárt viselkedés: A Home képernyőn tetején elhelyezkedő login szövegre kattintva megjelenik a bejelentkezési felület. A teszteléshez egy előre létrehozott admin felhasználóval lépjünk be. A megfelelő email és jelszó megadása után a Bejelentkezés gombra kattintva átirányítás történik a home képernyőre. Adminként bejelentkezve a kérdőívek neve mellett megjelenik egy szerkesztés és törlés gomb, valamint a kérdőívek listája alatt egy kérdőív létrehozásra szolgáló plusz gomb.
