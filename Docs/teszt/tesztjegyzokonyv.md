@@ -87,6 +87,8 @@ Tényleges viselkedés: Az kérdőív a megadott címmel elmentődik. A felvett 
 
 Tényleges viselkedés: Az általunk megadott kérdőív cím és kérdések is elmentődnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Az általunk felvett kérdések és kérdőív cím is mentésre kerülnek. Tesztelve: Brave-ben Balázs Bence által.
+
 6\. Kérdőív törlése
 --------------------------------------------
 
