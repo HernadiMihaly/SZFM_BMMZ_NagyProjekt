@@ -104,6 +104,8 @@ Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és r
 
 Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és randomizálására vonatkozó beállítások sikeresen elmentődnek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdőív szerkesztő beállítások az elvártnak megfelelően működnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 9\. Kérdőív szerkesztése: Kérdés tulajdonságok módosítása
 ---------------------------
 
