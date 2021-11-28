@@ -190,6 +190,8 @@ Tényleges viselkedés: Ha olyan kérdőívre kattintunk amelyikhez vannak táro
 
 Tényleges viselkedés: Olyan kérdőívre kattintva amelyikhez már vannak tárolva válaszok, akkor azok megjelennek az alsó táblázatban. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A válaszokkal rendelkező kérdőívek kiválasztása esetén megjelennek az alsó táblázatban. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 16\. Válaszok listázása utáni szűrés
 ---------------------------------------------------
 
