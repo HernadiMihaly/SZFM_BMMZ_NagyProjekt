@@ -92,6 +92,8 @@ Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva
 
 Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva megjelennek az adott kérdőív adatai. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdőívet szerkesztő gomb megfelelően működik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 8\. Kérdőív szerkesztése: Kérdőív tulajdonságok módosítása
 ---------------------------
 
