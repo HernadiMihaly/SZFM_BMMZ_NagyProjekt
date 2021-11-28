@@ -106,7 +106,7 @@ Elvárt viselkedés: A kérdőív szerkesztése felületen beállítható, hogy 
 Az adott kérdőív egyes kérdéseihez sorszámot megadva beállítható a kérdések sorrendje.
 Az adott kérdőív kitöltésénél a kérdések a megadott sorszámok alapján növekvő sorrendbe rendezve jelennek meg.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A kérdések rendezése a megadott sorrend alapján történik. Szétválasztás beállítása esetén a tudásfelmérő kérdések a prediktív kérdések elé kerülnek, a két blokkban pedig a megadott sorrend szerint vannak rendezve. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 14\. Válaszok listázása felület
 ---------------------------------------------------
