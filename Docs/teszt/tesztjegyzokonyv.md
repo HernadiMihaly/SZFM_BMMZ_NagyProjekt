@@ -27,6 +27,8 @@ Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdése
 
 Tényleges viselkedés: A kitöltési felület és az egyes kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kitöltési felület, kérdések és válaszmezők akadálymentesen megjelennek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 2\. Kérdőív válaszok lementése
 --------------------------
 
