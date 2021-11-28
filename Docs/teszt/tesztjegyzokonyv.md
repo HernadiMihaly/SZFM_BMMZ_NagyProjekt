@@ -125,7 +125,7 @@ Az adott kérdőív kitöltésénél a kérdések minden kitöltéskor véletlen
 
 Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések minden kitöltéskor más sorrendben jelennek meg, feltéve hogy van legalább három kérdés szétválasztás mellett vagy két kérdés szétválasztás nélkül. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más sorrendben jelennek meg minden kitöltéskor , feltéve hogy legalább három kérdés létezik  szétválasztással vagy két kérdés szétválasztás nélkül.
+Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más sorrendben jelennek meg minden kitöltéskor , feltéve hogy legalább három kérdés létezik  szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
@@ -136,6 +136,8 @@ Az adott kérdőív egyes kérdéseihez sorszámot megadva beállítható a kér
 Az adott kérdőív kitöltésénél a kérdések a megadott sorszámok alapján növekvő sorrendbe rendezve jelennek meg.
 
 Tényleges viselkedés: A kérdések rendezése a megadott sorrend alapján történik. Szétválasztás beállítása esetén a tudásfelmérő kérdések a prediktív kérdések elé kerülnek, a két blokkban pedig a megadott sorrend szerint vannak rendezve. Tesztelve: Google Chrome-ban Osztós Zsombor által.
+
+Tényleges viselkedés: A megadott sorrend alapján történik a kérdések rendezése . Szétválasztás beállítása után a a prediktív kérdések  tudásfelmérő kérdések után kerülnek, a két blokkban pedig a megadott sorrend szerint vannak rendezve. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 14\. Válaszok listázása felület
 ---------------------------------------------------
