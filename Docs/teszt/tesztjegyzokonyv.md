@@ -282,6 +282,9 @@ Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokka
 
 Tényleges viselkedés: Helyes adatokat használva a regisztráció sikeresen végbemegy. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Miután kitöltöttük a megfelelő mezőket, a regisztráció sikeresen lezajlik, ezek után a belépés csak a helyes adatokkal használatával lehetséges. Tesztelve: Brave-ben Balázs Bence által.
+
+
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
 
