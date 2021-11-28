@@ -95,6 +95,8 @@ Az adott kérdőív kitöltése közben a lista típusú kérdéseknél megjelen
 
 Tényleges viselkedés: Egy kérdésen végzett módosítások a szerkesztés újboli megnyitása után is láthatóak. A lista típusú kérdésnél a beállított válaszlehetőségek megjelennek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Egy kérdés módosításai a szerkesztés ismét megnyitása után is láthatóak. A lista típusú kérdésnél megjelennek a beállított válaszlehetőségek. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 10\. Kérdőív szerkesztése: Kérdés lista módosítása
 ---------------------------------------------------
 
