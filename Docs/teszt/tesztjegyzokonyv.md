@@ -49,7 +49,7 @@ Tényleges viselkedés: A válaszok beküldésre kerülnek teljes és hiányos k
 
 Tényleges viselkedés: A válaszok kitöltéstől függetlenül beküldésre kerülnek. Az átirányítás működik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
-Tényleges viselkedés: A válaszok beküldésre kerülnek kitöltéstől függetlenül. Működik az átirányítás. Tesztelve: Brave-ben Balázs Bence.
+Tényleges viselkedés: A válaszok beküldésre kerülnek kitöltéstől függetlenül. Működik az átirányítás. Tesztelve: Brave-ben Balázs Bence által.
 
 3\. Belépés admin felhasználóval
 --------------------------
@@ -60,6 +60,8 @@ Tényleges viselkedés: A login képernyőn a megfelelő bejelentkezési adatok 
 Tényleges viselkedés: A login képernyőn be tudok lépni adminként és a gombok elérhetőek lesznek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 Tényleges viselkedés: A login képernyőn adminisztrátori jogokkal történő bejelentkezés esetén a gombok elérhetőek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: A login képernyőn a gombok elérhetőek adminisztrátori jogokkal történő bejelentkezés esetén. Tesztelve: Brave-ben Balázs Bence által.
 
 4\. Új kérdőív felvétele felület
 --------------------------
