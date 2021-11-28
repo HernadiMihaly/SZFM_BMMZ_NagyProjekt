@@ -93,6 +93,9 @@ Tényleges viselkedés: A kérdőív létrehozó felület láthatóvá válik. T
 
 Tényleges viselkedés: A gomb megfelelően működik, a kérdőív létrehozó felület láthatóvá válik. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kérdőívek alatti gombra kattintva sikeresen megjelenik a szerkesztési felület. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
+
 5\. Új kérdőív lementése
 --------------------------
 
