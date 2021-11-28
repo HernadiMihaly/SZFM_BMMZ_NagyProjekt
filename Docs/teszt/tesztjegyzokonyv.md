@@ -246,3 +246,5 @@ Elvárt viselkedés: Ha valamelyik mezőt nem töltjük ki, nem valid email-t ad
 Tényleges viselkedés: Ha nem valid User adatokat adunk meg, a regisztráció nem megy végbe. A hibaüzenet nem mindig adja meg pontosan hogy miben volt a hiba. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: Ha nem jó User adatokat adunk meg, a regisztráció nem sikerül. A hibaüzenet nem mindig adja meg pontosan, hogy mi volt a hiba. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
+Tényleges viselkedés: Hibás adatok alkalmazása esetén a regisztráció nem megy végbe. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
