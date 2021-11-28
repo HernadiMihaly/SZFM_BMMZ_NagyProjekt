@@ -113,7 +113,7 @@ Tényleges viselkedés: A kérdések rendezése a megadott sorrend alapján tör
 
 Elvárt viselkedés: A Home képernyő navigációs menüjében (képernyő teteje) a Listázás menüpontra kattintva megjelenik a válasz lekérdező felület.
 
-Tényleges viselkedés:
+Tényleges viselkedés: Admin felhasználóként bejelentkezve sikeresen elérjük a válasz listázási nézetet. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 15\. Válaszok listázása egy kérdőívhez
 ---------------------------------------------------
