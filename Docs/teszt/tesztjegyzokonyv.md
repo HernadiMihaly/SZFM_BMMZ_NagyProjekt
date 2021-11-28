@@ -253,7 +253,10 @@ Tényleges viselkedés: Adminként bejelentkezve sikeresen  megjelenik a válasz
 
 Tényleges viselkedés: Adminisztrátor jogokkal történő belépés esetén a válasz lekérdező felület válik elérhetővé. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
-Tényleges viselkedés: Miután bejelntkeztünk adminisztrátori jogokkal, elérhetővé válik a válasz lekérdező felület. Tesztelve: Brave-ben Balázs Bence által.
+Tényleges viselkedés: Miután bejelentkeztünk adminisztrátori jogokkal, elérhetővé válik a válasz lekérdező felület. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Adminisztrátorként történő bejelentkezés után elérhetővé válik a válaszokat lekérdező felület. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 
 15\. Válaszok listázása egy kérdőívhez
 ---------------------------------------------------
