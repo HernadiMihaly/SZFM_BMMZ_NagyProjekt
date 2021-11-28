@@ -4,10 +4,11 @@
     <ul class="kerdoivek">
         <li class="kerdoiv" v-for="kerdoiv in kerdoivek" v-bind:key="kerdoiv.id">
           <router-link :to="{ name: 'kerdoiv', params: { kerdoiv_id: kerdoiv.id } }">{{ kerdoiv.title }}</router-link>
-          <Button icon="pi pi-user-edit" class="p-button-rounded p-button-primary" @click="edit_kerdoiv(kerdoiv.id)"/>
-          <Button icon="pi pi-trash" class="p-button-rounded p-button-danger" @click="delete_kerdoiv(kerdoiv.id)"/>
+          <Button v-if="$store.state.is_admin" icon="pi pi-user-edit" class="p-button-rounded p-button-primary" @click="edit_kerdoiv(kerdoiv.id)"/>
+          <Button v-if="$store.state.is_admin" icon="pi pi-trash" class="p-button-rounded p-button-danger" @click="delete_kerdoiv(kerdoiv.id)"/>
         </li>
     </ul>
+    <Button v-if="$store.state.is_admin" icon="pi pi-plus" class="p-button-rounded p-button-primary" @click="add_kerdoiv()"/>
   </div>
 </template>
 
@@ -60,11 +61,13 @@ export default {
     },
     edit_kerdoiv(id) {
        this.$router.push({ name: 'kerdoiv_szerkesztes', params: { kerdoiv_id: id } });
+    },
+    add_kerdoiv() {
+       this.$router.push({ name: 'kerdoiv_szerkesztes', params: { kerdoiv_id: 0 } });
     }
   }
 }
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -84,4 +87,3 @@ a {
   color: #42b983;
 }
 </style>
-
