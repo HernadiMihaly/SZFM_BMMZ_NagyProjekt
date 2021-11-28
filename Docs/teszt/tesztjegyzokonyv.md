@@ -193,7 +193,7 @@ Elvárt viselkedés: A név mezőt kitöltve, az email mezőben helyes email cí
 
 Tényleges viselkedés: A regisztráció sikeresen megtörténik, a login oldalon a bevitt adatokkal lehetséges a belépés. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
-Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokkal lehetséges a belépés.
+Tényleges viselkedés: A regisztráció sikeresen végbemegy, a helyes adatokkal lehetséges a belépés. Opera Gx-ben Kiss Marcell által.
 
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
