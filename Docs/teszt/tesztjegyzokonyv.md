@@ -71,7 +71,7 @@ A Mentés gomb megnyomása után átirányítás történik a Home képernyőre,
 Az adott kérdőív kitöltése közben a lista típusú kérdéseknél megjelennek a felvett válaszlehetőségek.
 
 
-Tényleges viselkedés:
+Tényleges viselkedés: Egy kérdésen végzett módosítások a szerkesztés újboli megnyitása után is láthatóak. A lista típusú kérdésnél a beállított válaszlehetőségek megjelennek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 10\. Kérdőív szerkesztése: Kérdés lista módosítása
 ---------------------------------------------------
