@@ -83,6 +83,8 @@ A Mentés gomb megnyomása után átirányítás történik a Home képernyőre,
 
 Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és randomizálására vonatkozó tulajdonságokon végzett változtatások mentés után sikeresen lementődnek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A kérdőív cím, kérdések szétválasztására és randomizálására vonatkozó beállítások sikeresen elmentődnek. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 9\. Kérdőív szerkesztése: Kérdés tulajdonságok módosítása
 ---------------------------
 
