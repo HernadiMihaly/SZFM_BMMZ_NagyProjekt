@@ -227,6 +227,8 @@ Tényleges viselkedés: Olyan kérdőívre kattintva amelyikhez már vannak tár
 
 Tényleges viselkedés: A válaszokkal rendelkező kérdőívek kiválasztása esetén megjelennek az alsó táblázatban. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Miután kiválasztottuk egy válaszokkal rendelkező kérdőívet, melyet követően ez megjelenik az alsó táblázatban. Tesztelve: Brave-ben Balázs Bence által.
+
 16\. Válaszok listázása utáni szűrés
 ---------------------------------------------------
 
