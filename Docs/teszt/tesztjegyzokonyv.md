@@ -125,6 +125,8 @@ Az adott kérdőív kitöltésénél a kérdések minden kitöltéskor véletlen
 
 Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések minden kitöltéskor más sorrendben jelennek meg, feltéve hogy van legalább három kérdés szétválasztás mellett vagy két kérdés szétválasztás nélkül. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más sorrendben jelennek meg minden kitöltéskor , feltéve hogy legalább három kérdés létezik  szétválasztással vagy két kérdés szétválasztás nélkül.
+
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
 ---------------------------------------------------
