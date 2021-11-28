@@ -81,6 +81,8 @@ Tényleges viselkedés: A törlés után Mégse gombra kattintva nem törlődik 
 
 Tényleges viselkedés: A törlés gomb után az OK gomb sikeresen törli a kérdőívet, a Mégse gombbal pedig nem törlődik. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A törlést elfogadó, illetve megtagadó gombok megfelelően működnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 7\. Kérdőív szerkesztése felület
 --------------------------------------------
 
