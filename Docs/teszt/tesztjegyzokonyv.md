@@ -347,3 +347,5 @@ Tényleges viselkedés: Ha nem jó User adatokat adunk meg, a regisztráció nem
 Tényleges viselkedés: Hibás adatok alkalmazása esetén a regisztráció nem megy végbe. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: Érvénytelen User adatok megadása esetén, a regisztráció hibába ütközik. A hibaüzenet nem nyújt mindig  pontos választ arra, hogy mi volt a hiba. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Hibás User adatok esetén a regisztráció nem sikeres. A hibaüzenet nem mindig adja meg a pontos hibát. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
