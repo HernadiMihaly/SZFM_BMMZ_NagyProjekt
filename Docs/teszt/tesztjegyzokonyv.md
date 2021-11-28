@@ -37,6 +37,8 @@ Elvárt viselkedés: A Home képernyőn tetején elhelyezkedő login szövegre k
 
 Tényleges viselkedés: A login képernyőn a megfelelő bejelentkezési adatok megadása után be tudunk lépni adminként, és a home képernyőn a gombok elérhetővé válnak. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A login képernyőn be tudok lépni adminként és a gombok elérhetőek lesznek. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 4\. Új kérdőív felvétele felület
 --------------------------
 
