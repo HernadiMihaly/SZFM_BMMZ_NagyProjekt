@@ -46,6 +46,8 @@ Elvárt viselkedés: A Home képernyőn a kérdőívek listája alatti plusz gom
 
 Tényleges viselkedés: A kérdőív létrehozására alkalmas szerkesztési felület megjelenik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: Megjelenik a kérdőív létrehozására alkalmas felület. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 5\. Új kérdőív lementése
 --------------------------
 
