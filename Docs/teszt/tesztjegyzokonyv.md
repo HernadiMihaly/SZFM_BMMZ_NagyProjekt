@@ -11,6 +11,11 @@ Böngésző verzió: Opera GX 92
 
 Operációs rendszer: Windows 10
 
+Tesztek Mozilla Firefox böngészőn
+=======================
+Böngésző verzió: Mozilla Firefox 94.0.2
+
+Operációs rendszer: Windows 10
 
 
 1\. Kérdőív kitöltése felület
