@@ -286,6 +286,8 @@ Tényleges viselkedés: A kérdésekhez tartozó válaszok szűrésére implemen
 
 Tényleges viselkedés: Miután beállítottuk a szűrést, csak azok a válaszok jelennek meg amelyek a kiválasztott kérdéshez vagy kérdésekhez tartoznak. Tesztelve: Brave-ban Balázs Bence által.
 
+Tényleges viselkedés: A szűrés beállítását követően, csak azok a válaszok jelennek meg amik a kiválasztott kérdésekhez tartoznak. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 17\. Válaszok listázása utáni átrendezés
 ---------------------------------------------------
 
