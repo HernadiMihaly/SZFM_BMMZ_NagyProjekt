@@ -70,6 +70,8 @@ Tényleges viselkedés: Az új kérdőív lementése a megadott címmel megtört
 
 Tényleges viselkedés: Az kérdőív a megadott címmel elmentődik. A felvett kérdések is elmentődnek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az általunk megadott kérdőív cím és kérdések is elmentődnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 6\. Kérdőív törlése
 --------------------------------------------
 
