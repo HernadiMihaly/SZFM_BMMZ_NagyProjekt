@@ -61,8 +61,7 @@ Tényleges viselkedés: A válaszok kitöltéstől függetlenül beküldésre ke
 
 Tényleges viselkedés: A válaszok beküldésre kerülnek kitöltéstől függetlenül. Működik az átirányítás. Tesztelve: Brave-ben Balázs Bence által.
 
-Tényleges viselkedés: A válaszok beküldése sikeresen végrehajtható, mind teljes, mind pedig hiányos kitöltés esetén. Az átirányítás sikeres a kitöltést megköszönő oldalra.
-Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+Tényleges viselkedés: A válaszok beküldése sikeresen végrehajtható, mind teljes, mind pedig hiányos kitöltés esetén. Az átirányítás sikeres a kitöltést megköszönő oldalra. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
 
 
 3\. Belépés admin felhasználóval
@@ -109,8 +108,7 @@ Tényleges viselkedés: Az általunk megadott kérdőív cím és kérdések is 
 
 Tényleges viselkedés: Az általunk felvett kérdések és kérdőív cím is mentésre kerülnek. Tesztelve: Brave-ben Balázs Bence által.
 
-Tényleges viselkedés: A megadott kérdőív cím és kérdések is sikeresen elmenthetőek, az átirányítás megtörténik a Home képernyőre, a kérdőív megjelenik.
-Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+Tényleges viselkedés: A megadott kérdőív cím és kérdések is sikeresen elmenthetőek, az átirányítás megtörténik a Home képernyőre, a kérdőív megjelenik. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
 
 6\. Kérdőív törlése
 --------------------------------------------
@@ -124,6 +122,9 @@ Tényleges viselkedés: A törlés gomb után az OK gomb sikeresen törli a kér
 Tényleges viselkedés: A törlést elfogadó, illetve megtagadó gombok megfelelően működnek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: A gombok megfelelően működnek, funkcióikat ellátják. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: A törlés és mégse gombok minden kritériumnak megfelelően működnek.  Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 
 7\. Kérdőív szerkesztése felület
 --------------------------------------------
