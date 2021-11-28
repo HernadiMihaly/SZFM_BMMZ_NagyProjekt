@@ -21,7 +21,7 @@ Tényleges viselkedés:
 4\. Új kérdőív felvétele felület
 --------------------------
 
-Elvárt viselkedés: A Home képernyőn a kérdőívek listája alatti plusz gombra kattintva megjelenik a kkérdőív szerkesztési felület, ahol lehetőség van egy még nem tárolt kérdőív adatainak bevitelére.
+Elvárt viselkedés: A Home képernyőn a kérdőívek listája alatti plusz gombra kattintva megjelenik a kérdőív szerkesztési felület, ahol lehetőség van egy még nem tárolt kérdőív adatainak bevitelére.
 
 Tényleges viselkedés:
 
