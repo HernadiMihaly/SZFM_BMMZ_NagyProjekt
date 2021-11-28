@@ -59,6 +59,8 @@ Tényleges viselkedés: A kérdőív létrehozására alkalmas szerkesztési fel
 
 Tényleges viselkedés: Megjelenik a kérdőív létrehozására alkalmas felület. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
+Tényleges viselkedés: A kérdőív létrehozó felület láthatóvá válik. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
 5\. Új kérdőív lementése
 --------------------------
 
