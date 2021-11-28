@@ -150,7 +150,7 @@ Tényleges viselkedés: A Logout gombbal történő kijelentkezés után láthat
 
 Elvárt viselkedés: A név mezőt kitöltve, az email mezőben helyes email cím megadásával valamint a jelszó és ellenőrző jelszó mezőket egyező jelszóval feltöltve létrehozhatunk egy új felhasználót a Regisztráció gombbal. A regisztráció után átirányítás történik a login felületre, ahol be tudunk jelentkezni az új felhasználóval.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A regisztráció sikeresen megtörténik, a login oldalon a bevitt adatokkal lehetséges a belépés. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
