@@ -46,7 +46,7 @@ Tényleges viselkedés: Az új kérdőív lementése a megadott címmel megtört
 
 Elvárt viselkedés: A Home képernyőn a kérdőívek neve mellett megjelenő törlés gombra kattintás után megjelenik egy confirmation popup, ahol eldönthetjük hogy valóban törölni szeretnénk-e az adott kérdőívet. Ha OK-ra kattintunk, akkor az adott kérdőív eltűnik a listából. Ha a Mégse gombra kattintunk, nem történik törlés.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A törlés után Mégse gombra kattintva nem törlődik a választott kérdőív, OK-t választva a törlés sikeresen megtörténik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 7\. Kérdőív szerkesztése felület
 --------------------------------------------
