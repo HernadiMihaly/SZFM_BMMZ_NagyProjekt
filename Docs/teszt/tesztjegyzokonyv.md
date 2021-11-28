@@ -332,6 +332,8 @@ Tényleges viselkedés: Helyes adatokat használva a regisztráció sikeresen v�
 
 Tényleges viselkedés: Miután kitöltöttük a megfelelő mezőket, a regisztráció sikeresen lezajlik, ezek után a belépés csak a helyes adatokkal használatával lehetséges. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A regisztrációs mezők sikeresen működnek. A regisztráció rendben megtörténik. A login oldalon sikeres a belépés a regisztrált adatokkal. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 
 20\. Regisztráció hibás adatokkal
 ---------------------------------------------------
