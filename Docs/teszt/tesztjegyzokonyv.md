@@ -17,7 +17,7 @@ Böngésző verzió: Mozilla Firefox 94.0.2
 
 Operációs rendszer: Windows 10
 
-Tesztek Google Chrome böngészőn
+Tesztek Google Brave böngészőn
 =======================
 
 Böngésző verzió: Brave 93.1.29.81
@@ -35,6 +35,8 @@ Tényleges viselkedés: A kérdőív kitöltési felület és az egyes kérdése
 Tényleges viselkedés: A kitöltési felület és az egyes kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Opera Gx-ben Kiss Marcell által.
 
 Tényleges viselkedés: A kitöltési felület, kérdések és válaszmezők akadálymentesen megjelennek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: A kitöltési felület, válaszmezők és kérdések hiba nélkül megjelennek. Tesztelve: Brave-ben Balázs Bence által.
 
 2\. Kérdőív válaszok lementése
 --------------------------
