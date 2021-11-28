@@ -317,6 +317,8 @@ Tényleges viselkedés: A Logout gomb megfelelően működik, használata után 
 
 Tényleges viselkedés: A Logout gomb megnyomása után láthatóvá válik a Regisztrációs felület. A regisztrációs felület megnyílik. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A Logout gombbal kijelentkezve megjelenik és láthatóvá válik a Regisztráció felület. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 19\. Regisztráció helyes adatokkal
 ---------------------------------------------------
 
