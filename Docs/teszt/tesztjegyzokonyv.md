@@ -164,6 +164,8 @@ Elvárt viselkedés: Az egy kérdőívhez tartozó válaszok listáját lehet sz
 
 Tényleges viselkedés: A szűrés beállítása után csak a kiválasztott kérdéshez vagy kérdésekhez tartozó válaszok jelennek meg. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A szűrés alkalmazása után csak a kiválasztott kérdéshez vagy kérdésekhez tartozó válaszok jelennek meg. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 17\. Válaszok listázása utáni átrendezés
 ---------------------------------------------------
 
