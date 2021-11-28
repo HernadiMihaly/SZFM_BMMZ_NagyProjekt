@@ -185,6 +185,8 @@ Tényleges viselkedés: A randomizáció bekapcsolása után a kérdések más s
 
 Tényleges viselkedés: Randomizációt használva a kérdések más sorrendben jelennek meg abban az esetben, ha van két kérdés szétválasztás nélkül, vagy van legalább három kérdés szétválasztással. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Randomizáció használata esetén, a kérdések más sorrendben jelennek meg minden kitöltéskor, feltéve hogy van legalább három kérdés szétválasztással vagy két kérdés szétválasztás nélkül. Tesztelve: Balázs Bence-ban Balázs Bence által.
+
 
 13\. Kérdőív szerkesztése: Kérdések sorrendjének manuális beállítása
 ---------------------------------------------------
