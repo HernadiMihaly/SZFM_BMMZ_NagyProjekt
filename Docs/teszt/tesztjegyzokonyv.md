@@ -190,6 +190,8 @@ Tényleges viselkedés: Az új kérdések mentésre kerülnek, a törlendő kér
 
 Tényleges viselkedés: Az új kérdések sikeresen lementésre kerülnek, a törölt kérdések pedig törlésre kerülnek a kérdőívből. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: Az új kérdések lementésre kerülnek, a törölt kérdések eltűnnek a kérdőívből. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 11\. Kérdőív szerkesztése: Prediktív és tudásfelmérő kérdések szétválasztása
 ---------------------------------------------------
 
