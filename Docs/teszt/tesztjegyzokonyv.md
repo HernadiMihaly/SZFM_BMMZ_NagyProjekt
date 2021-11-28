@@ -53,7 +53,7 @@ Tényleges viselkedés: A törlés után Mégse gombra kattintva nem törlődik 
 
 Elvárt viselkedés: A Home képernyőn a kérdőívek neve mellett megjelenő szerkesztés gombra kattintás után megjelenik egy kérdőív szerkesztési felület, ahol a kiválasztott kérdőív aktuális állapota látható.
 
-Tényleges viselkedés:
+Tényleges viselkedés: A kérdőív neve melletti szerkesztés gombra kattintva megjelennek az adott kérdőív adatai. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 8\. Kérdőív szerkesztése: Kérdőív tulajdonságok módosítása
 ---------------------------
