@@ -45,6 +45,9 @@ Tényleges viselkedés: A kitöltési felület, kérdések és válaszmezők aka
 
 Tényleges viselkedés: A kitöltési felület, válaszmezők és kérdések hiba nélkül megjelennek. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A kitöltési felület, valamint a felületen lévő kérdések és válaszmezők hibamentesen megjelennek. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
+
 2\. Kérdőív válaszok lementése
 --------------------------
 
