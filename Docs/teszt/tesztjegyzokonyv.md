@@ -271,6 +271,8 @@ Tényleges viselkedés: A válaszokkal rendelkező kérdőívek kiválasztása e
 
 Tényleges viselkedés: Miután kiválasztottuk egy válaszokkal rendelkező kérdőívet, melyet követően ez megjelenik az alsó táblázatban. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A válaszokkal rendelkező kérdőív kiválasztása után, ezek megjelennek a táblázatban. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
 16\. Válaszok listázása utáni szűrés
 ---------------------------------------------------
 
