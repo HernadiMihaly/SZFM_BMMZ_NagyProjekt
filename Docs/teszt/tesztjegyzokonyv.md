@@ -173,6 +173,9 @@ Tényleges viselkedés: Kérdések szerkesztése során a frissített kérdések
 
 Tényleges viselkedés: Egy kérdés módosításai ismét láthatóak a szerkesztés ujjbóli megnyitása után is. A lista típusú kérdésnél a beállított válaszlehetőségek megjelennek. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: Az adott kérdésen elvégzett minden módosítás a szerkesztés újabb megnyitása után is látható. A lista típusú kérdésnél megjelennek a beállított válaszlehetőségek. Tesztelve: Microsoft Edge-ben, Hernádi Mihály által.
+
+
 10\. Kérdőív szerkesztése: Kérdés lista módosítása
 ---------------------------------------------------
 
