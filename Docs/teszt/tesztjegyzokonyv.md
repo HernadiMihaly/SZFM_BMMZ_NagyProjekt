@@ -64,6 +64,8 @@ Elvárt viselkedés: A Home képernyőn a kérdőívek neve mellett megjelenő t
 
 Tényleges viselkedés: A törlés után Mégse gombra kattintva nem törlődik a választott kérdőív, OK-t választva a törlés sikeresen megtörténik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
+Tényleges viselkedés: A törlés gomb után az OK gomb sikeresen törli a kérdőívet, a Mégse gombbal pedig nem törlődik. Tesztelve: Opera Gx-ben Kiss Marcell által.
+
 7\. Kérdőív szerkesztése felület
 --------------------------------------------
 
