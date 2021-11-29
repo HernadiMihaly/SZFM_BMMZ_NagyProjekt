@@ -1,9 +1,9 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link>
-    <span v-if="$store.state.user == null"> | <router-link  to="Login">Login</router-link></span>
-    <span v-if="$store.state.user == null"> | <router-link to="Register">Register</router-link></span>
-    <span v-if="$store.state.is_admin"> | <router-link to="ListAnswers">Listázás</router-link></span>
+    <span v-if="$store.state.user == null"> | <router-link  to="/Login">Login</router-link></span>
+    <span v-if="$store.state.user == null"> | <router-link to="/Register">Register</router-link></span>
+    <span v-if="$store.state.is_admin"> | <router-link to="/ListAnswers">Listázás</router-link></span>
     <a v-if="$store.state.user != null" @click="$store.dispatch('logout')">
     | Logout
     </a>
@@ -27,6 +27,7 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  cursor: pointer;
 }
 
 #nav a.router-link-exact-active {
