@@ -39,8 +39,8 @@ const store = new Vuex.Store({
       //sessionStorage.clear();
       state.user = null;
       state.is_admin = false;
-      state.accessToken = "";
-      location.reload()
+      state.access_token = null;
+      location.reload();
     }
   },
 
@@ -87,6 +87,8 @@ export default function axiosSetUp() {
       const token = store.getters.access_token;
       if (token) {
         config.headers.Authorization = `Bearer ${token}`;
+      } else {
+        config.headers.Authorization = `Bearer`;
       }
       return config;
     },
@@ -116,3 +118,4 @@ app.config.globalProperties.axios=axios
 //app.use(PrimeVue);
 //app.config.globalProperties.axios=axios
 app.mount('#app')
+
